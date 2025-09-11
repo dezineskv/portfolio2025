@@ -1,3 +1,4 @@
+"use client";
 import { Separator } from "@/components/ui/separator";
 import {
   SidebarInset,
@@ -13,8 +14,17 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
+import ChartPie from "@/components/components/Chart";
+import { BarCharts } from "@/components/components/BarCharts";
+import { columns, Payment } from "./columns";
+import DataTable from "@/components/components/DataTable";
+
+// async function getData() {
+// Fetch data from API here.
 
 export default function Page() {
+  //   const data = getData();
+
   return (
     <SidebarProvider>
       <AppSidebar />
@@ -28,24 +38,27 @@ export default function Page() {
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem className="hidden md:block">
-                <BreadcrumbLink href="#">
-                  Building Your Application
-                </BreadcrumbLink>
+                <BreadcrumbLink href="#">Dashboard</BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator className="hidden md:block" />
               <BreadcrumbItem>
-                <BreadcrumbPage>Data Fetching</BreadcrumbPage>
+                <BreadcrumbPage>Projects</BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
         </header>
         <div className="flex flex-1 flex-col gap-4 p-4">
-          <div className="grid auto-rows-min gap-4 md:grid-cols-3">
-            <div className="bg-muted/50 aspect-video rounded-xl" />
-            <div className="bg-muted/50 aspect-video rounded-xl" />
-            <div className="bg-muted/50 aspect-video rounded-xl" />
+          <div className="grid auto-rows-min gap-4 md:grid-cols-2">
+            <div className="bg-muted/50 aspect-video rounded-xl">
+              <ChartPie />
+            </div>
+            <div className="bg-muted/50 aspect-video rounded-xl">
+              <BarCharts />
+            </div>
           </div>
-          <div className="bg-muted/50 min-h-[100vh] flex-1 rounded-xl md:min-h-min" />
+          <div className="bg-muted/50 min-h-[100vh] flex-1 rounded-xl md:min-h-min">
+            <DataTable />
+          </div>
         </div>
       </SidebarInset>
     </SidebarProvider>

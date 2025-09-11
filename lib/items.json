@@ -206,17 +206,18 @@
       "id": "7",
       "title": "Weather App",
       "description": "NextJs app, Tailwind & DaisyUI. Also API data. Original design/layout. Light mode & dark mode functionality, more...",
-      "stack": "NextJs, TailwindCSS, Node.js",
+      "stack": "HTML, CSS, JavaScript, Node.js",
       "features": "Frontend display of UI components including DaisyUI elements. Rendering of a list of products.",
       "notes": "here...",
       "includes": {
         "items": [
-          "frontend UI features & components",
-          "There's also a rendering of a list of products."
+          "frontend feature",
+          "HTML CSS & Javascript allows interactivity",
+          "API"
         ]
       },
       "image": "https://i.ibb.co/y2M2hBk/ui-homepage.png",
-      "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
+      "logo": "https://i.ibb.co/C3PXt4w3/html5.png",
       "images": ["https://i.ibb.co/FLgLdkTB/ui-apipage.png"],
       "icons": [
         "https://i.ibb.co/C3PXt4w3/html5.png",
@@ -233,18 +234,19 @@
       "id": "8",
       "title": "Music App",
       "description": "NextJs app, Tailwind & DaisyUI. Also API data. Original design/layout. Light mode & dark mode functionality, more...",
-      "stack": "NextJs, TailwindCSS, Node.js",
+      "stack": "HTML, CSS, JavaScript, Node.js",
       "features": "Frontend display of UI components including DaisyUI elements. Rendering of a list of products.",
       "notes": "here...",
       "includes": {
         "items": [
-          "frontend UI features & components",
-          "There's also a rendering of a list of products."
+          "frontend feature",
+          "HTML CSS & Javascript allows interactivity",
+          "API"
         ]
       },
-      "image": "https://i.ibb.co/y2M2hBk/ui-homepage.png",
-      "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
-      "images": ["https://i.ibb.co/FLgLdkTB/ui-apipage.png"],
+      "image": "https://i.ibb.co/JjfVg7gn/music-1.jpg",
+      "logo": "https://i.ibb.co/C3PXt4w3/html5.png",
+      "images": ["https://i.ibb.co/Rkz7dWQT/music-2.jpg"],
       "icons": [
         "https://i.ibb.co/C3PXt4w3/html5.png",
         "https://i.ibb.co/0jdrW5wx/css3.png",
@@ -258,20 +260,20 @@
     },
     {
       "id": "9",
-      "title": "Bank Page",
+      "title": "Bank page",
       "description": "NextJs app, Tailwind & DaisyUI. Also API data. Original design/layout. Light mode & dark mode functionality, more...",
-      "stack": "NextJs, TailwindCSS, Node.js",
+      "stack": "HTML, CSS, JavaScript, Node.js",
       "features": "Frontend display of UI components including DaisyUI elements. Rendering of a list of products.",
       "notes": "here...",
       "includes": {
         "items": [
-          "frontend UI features & components",
-          "There's also a rendering of a list of products."
+          "frontend feature",
+          "HTML, CSS & Javascript allows interactivity"
         ]
       },
-      "image": "https://i.ibb.co/y2M2hBk/ui-homepage.png",
-      "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
-      "images": ["https://i.ibb.co/FLgLdkTB/ui-apipage.png"],
+      "image": "https://i.ibb.co/21tkG84P/bank-full.jpg",
+      "logo": "https://i.ibb.co/C3PXt4w3/html5.png",
+      "images": ["https://i.ibb.co/21tkG84P/bank-full.jpg"],
       "icons": [
         "https://i.ibb.co/C3PXt4w3/html5.png",
         "https://i.ibb.co/0jdrW5wx/css3.png",

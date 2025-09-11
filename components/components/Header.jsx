@@ -45,19 +45,19 @@ const aboutItems = [
 
 const projectsItems = [
   {
-    title: "Project 1",
-    href: "/projects",
-    description: "description here",
+    title: "Featured Projects",
+    href: "/featured-projects",
+    description: "featured projects",
   },
   {
-    title: "Project 2",
+    title: "Projects",
     href: "/projects",
-    description: "description here",
+    description: "all projects",
   },
   {
-    title: "Project 3",
-    href: "/projects",
-    description: "description here",
+    title: "Project Dashboard",
+    href: "/filter",
+    description: "filter projects",
   },
 ];
 
@@ -149,6 +149,9 @@ export default function Header() {
                   </li>
                   <li className="text-black px-2">
                     <Link href="/projects">Projects</Link>
+                  </li>
+                  <li className="text-black px-2">
+                    <Link href="/filter">Sort Projects</Link>
                   </li>
                 </ul>
               )}

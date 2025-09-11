@@ -15,7 +15,8 @@
           "product detail page pulling data from mongoDB",
           "email subscription posts to the mongoDB and toast notification",
           "conditional rendering and filtering of products by category",
-          "server side filtering for the search bar"
+          "server side filtering for the search bar",
+          "props, state, hooks"
         ]
       },
       "image": "https://i.ibb.co/rKgZnWb2/coffeeshop-homepage.png",
@@ -87,7 +88,7 @@
         "items": [
           "modal for editing the specific task",
           "conditional rendering of tasks per status",
-          "state and props"
+          "state, props, hooks"
         ]
       },
       "image": "https://i.ibb.co/20ddL0PW/tracker-add.jpg",
@@ -205,9 +206,9 @@
     {
       "id": "7",
       "title": "Weather App",
-      "description": "NextJs app, Tailwind & DaisyUI. Also API data. Original design/layout. Light mode & dark mode functionality, more...",
+      "description": "Frontend rendering of weather per city input",
       "stack": "HTML, CSS, JavaScript, Node.js",
-      "features": "Frontend display of UI components including DaisyUI elements. Rendering of a list of products.",
+      "features": "API call to render the weather in Farenheit, by city input",
       "notes": "here...",
       "includes": {
         "items": [
@@ -216,9 +217,9 @@
           "API"
         ]
       },
-      "image": "https://i.ibb.co/y2M2hBk/ui-homepage.png",
+      "image": "https://i.ibb.co/N2df0Yqd/weatherapp.png",
       "logo": "https://i.ibb.co/C3PXt4w3/html5.png",
-      "images": ["https://i.ibb.co/FLgLdkTB/ui-apipage.png"],
+      "images": ["https://i.ibb.co/N2df0Yqd/weatherapp.png"],
       "icons": [
         "https://i.ibb.co/C3PXt4w3/html5.png",
         "https://i.ibb.co/0jdrW5wx/css3.png",
@@ -233,9 +234,9 @@
     {
       "id": "8",
       "title": "Music App",
-      "description": "NextJs app, Tailwind & DaisyUI. Also API data. Original design/layout. Light mode & dark mode functionality, more...",
+      "description": "Frontend rendering of music per 2 input options",
       "stack": "HTML, CSS, JavaScript, Node.js",
-      "features": "Frontend display of UI components including DaisyUI elements. Rendering of a list of products.",
+      "features": "API call to render music lyrics & info and click to hear the song",
       "notes": "here...",
       "includes": {
         "items": [
@@ -261,9 +262,9 @@
     {
       "id": "9",
       "title": "Bank page",
-      "description": "NextJs app, Tailwind & DaisyUI. Also API data. Original design/layout. Light mode & dark mode functionality, more...",
+      "description": "Frontend page that lets the user interact with deposit, balance and withrawal amounts",
       "stack": "HTML, CSS, JavaScript, Node.js",
-      "features": "Frontend display of UI components including DaisyUI elements. Rendering of a list of products.",
+      "features": "Frontend page that lets the user interact with deposit, balance and withrawal amounts",
       "notes": "here...",
       "includes": {
         "items": [

@@ -81,7 +81,7 @@ const data = [
     amount: 1,
     title: "Weather App",
     stack: "HTML, CSS, JavaScript, API",
-    image: "https://i.ibb.co/y2M2hBk/ui-homepage.png",
+    image: "https://i.ibb.co/N2df0Yqd/weatherapp.png",
   },
   {
     id: "8",
@@ -100,16 +100,27 @@ const data = [
   {
     id: "10",
     amount: 1,
-    title: "Bank page",
-    stack: "HTML, CSS, JavaScript",
-    image: "https://i.ibb.co/rKgZnWb2/coffeeshop-homepage.png",
+    title: "OpenAI, Snowflake",
+    stack: "Snowflake, OpenAI",
+    image:
+      "https://i.ibb.co/v6N4Ky71/ee7859-3da1a27d28024c8eae9f676af329340d-mv2.jpg",
   },
   {
     id: "11",
     amount: 1,
     title: "AWS",
-    stack: "HTML, CSS, JavaScript, Node.js",
-    image: "https://i.ibb.co/rKgZnWb2/coffeeshop-homepage.png",
+    stack: "AWS, HTML",
+    image:
+      "https://i.ibb.co/v6N4Ky71/ee7859-3da1a27d28024c8eae9f676af329340d-mv2.jpg",
+  },
+  ,
+  {
+    id: "12",
+    amount: 1,
+    title: "Sass/Figma",
+    stack: "React, Vite, Sass, Node.js",
+    image:
+      "https://i.ibb.co/v6N4Ky71/ee7859-3da1a27d28024c8eae9f676af329340d-mv2.jpg",
   },
 ];
 

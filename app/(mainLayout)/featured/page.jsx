@@ -1,13 +1,13 @@
 import Header from "@/components/components/Header";
 import Footer from "@/components/components/Footer";
 import React from "react";
-import AllProjects from "@/components/components/AllProjects"
+import Featured from "@/components/components/Featured";
 
 function page() {
   return (
     <>
       <Header />
-      <AllProjects />
+      <Featured />
       <Footer />
     </>
   );

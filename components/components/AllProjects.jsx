@@ -124,9 +124,9 @@ function AllProjects() {
         })}
       </div>
       <div className="mx-auto text-center pt-4 pb-10">
-        <Link href="/projects">
+        <Link href="/filter">
           <Button className="text-white dark:text-black bg-foreground">
-            More Projects
+            Projects
           </Button>
         </Link>
       </div>

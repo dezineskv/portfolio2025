@@ -1,13 +1,14 @@
 import Header from "@/components/components/Header";
 import Footer from "@/components/components/Footer";
-import React from "react";
+import React, { Suspense } from "react";
 import Featured from "@/components/components/Featured";
 
 function page() {
   return (
     <>
       <Header />
-      <Featured />
+      <Suspense fallback={<div>Loading...</div>}>
+      <Featured /></Suspense>
       <Footer />
     </>
   );

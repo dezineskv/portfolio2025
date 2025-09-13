@@ -7,8 +7,8 @@ import About from "@/components/components/About";
 function page() {
   return (
     <>
-      <Header />
       <Suspense fallback={<div>Loading...</div>}>
+        <Header />
         <About />
       </Suspense>
       <Footer />

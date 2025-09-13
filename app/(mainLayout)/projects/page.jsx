@@ -6,8 +6,10 @@ import AllProjects from "@/components/components/AllProjects"
 function page() {
   return (
     <>
-      <Header /> <Suspense fallback={<div>Loading...</div>}>
-      <AllProjects /></Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Header />
+        <AllProjects />
+      </Suspense>
       <Footer />
     </>
   );

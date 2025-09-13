@@ -7,8 +7,8 @@ import Skills from "@/components/components/Skills";
 function page() {
   return (
     <>
-      <Header />{" "}
       <Suspense fallback={<div>Loading...</div>}>
+        <Header />
         <Skills />
       </Suspense>
       <Footer />

@@ -7,8 +7,10 @@ import Resume from "@/components/components/Resume";
 function page() {
   return (
     <>
-      <Header /> <Suspense fallback={<div>Loading...</div>}>
-      <Resume /></Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Header />
+        <Resume />
+      </Suspense>
       <Footer />
     </>
   );

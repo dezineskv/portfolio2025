@@ -9,9 +9,10 @@ import Featured from "@/components/components/Featured";
 function page() {
   return (
     <>
-      <Header />
       <Suspense fallback={<div>Loading...</div>}>
-      <Featured /></Suspense>
+        <Header />
+        <Featured />
+      </Suspense>
       <Footer />
     </>
   );

@@ -20,16 +20,16 @@ import {
 export const description = "An interactive bar chart";
 
 const chartData = [
-  { date: "2024-01-01", desktop: 1, mobile: 1 },
+  { date: "2024-01-01", desktop: 0, mobile: 0 },
   { date: "2024-02-03", desktop: 1, mobile: 1 },
   { date: "2024-03-06", desktop: 3, mobile: 3 },
   { date: "2024-04-07", desktop: 1, mobile: 1 },
-  { date: "2024-04-08", desktop: 5, mobile: 5 },
+  { date: "2024-04-08", desktop: 2, mobile: 2 },
   { date: "2024-05-09", desktop: 1, mobile: 1 },
-  { date: "2024-06-10", desktop: 5, mobile: 5 },
-  { date: "2024-07-11", desktop: 4, mobile: 4 },
-  { date: "2024-08-12", desktop: 5, mobile: 5 },
-  { date: "2024-09-12", desktop: 5, mobile: 5 },
+  { date: "2024-06-10", desktop: 2, mobile: 2 },
+  { date: "2024-07-11", desktop: 3, mobile: 3 },
+  { date: "2024-08-12", desktop: 3, mobile: 3 },
+  { date: "2024-09-12", desktop: 3, mobile: 3 },
 ];
 
 const chartConfig = {
@@ -62,9 +62,7 @@ export function BarCharts() {
       <CardHeader className="flex flex-col items-stretch border-b !p-0 sm:flex-row">
         <div className="flex flex-1 flex-col justify-center gap-1 px-6 pt-4 pb-3 sm:!py-0">
           <CardTitle>Projects</CardTitle>
-          <CardDescription>
-            Showing month by month
-          </CardDescription>
+          <CardDescription>Showing month by month</CardDescription>
         </div>
         <div className="flex">
           {["desktop", "mobile"].map((key) => {

@@ -122,6 +122,13 @@ const data = [
     image:
       "https://i.ibb.co/v6N4Ky71/ee7859-3da1a27d28024c8eae9f676af329340d-mv2.jpg",
   },
+  {
+    id: "13",
+    amount: 1,
+    title: "Portfolio Site",
+    stack: "NextJs, TailwindCSS, Node.js, Vercel",
+    image: "https://i.ibb.co/4RnC7Gwn/portfolio-1.png",
+  },
 ];
 
 export const columns = [
@@ -177,7 +184,11 @@ export const columns = [
     header: "Project Image",
     cell: ({ row }) => (
       <div className="">
-        <img src={row.getValue("image")} alt="image" className="max-h-[240px] max-w-[300px]"/>
+        <img
+          src={row.getValue("image")}
+          alt="image"
+          className="max-h-[240px] max-w-[300px]"
+        />
       </div>
     ),
   },

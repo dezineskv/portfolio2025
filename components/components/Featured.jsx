@@ -56,9 +56,9 @@ function Featured() {
                   <CarouselNext className="mr-5" />
                 </Carousel>
                 {/* end carousel */}
-                <div className="flex flex-col justify-between  bg-white p-8 leading-normal md:rounded-r md:rounded-b-none  md:border-l-1-black md:border-background w-lg">
-                  <div className="mb-8">
-                    <p className="flex items-center text-sm text-gray-600">
+                <div className="flex flex-col justify-between gap-1 bg-white p-8 leading-normal md:rounded-r md:rounded-b-none  md:border-l-1-black md:border-background md:w-lg">
+                  <div className="mb-8 sm:w-[250px] md:w-md">
+                    <p className="flex items-center text-sm text-gray-600 ">
                       {item.icons.map((icon, index) => (
                         <Image
                           key={index}
@@ -70,24 +70,22 @@ function Featured() {
                         />
                       ))}
                     </p>
-                    <div className="mb-2 text-xl font-bold text-gray-900">
+                    <div className="mb-2 sm:pt-2 text-xl font-bold text-gray-900">
                       {item.title}
                     </div>
                     <p className="text-base text-gray-700">
                       <span className="font-bold">Stack: </span> {item.stack}
                     </p>
-                    <p className="text-base text-gray-700">
+                    <div className="text-base text-gray-700">
                       <span className="font-bold">Features: </span>
                       {item.features}
-                    </p>
+                    </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="text-sm">
-                      <p className="text-gray-600">
+                    <div className="text-sm text-gray-600">
                         <Link href={`/projects/${item.id}`}>
-                          <Button>View Project</Button>
-                        </Link>
-                      </p>
+                          <Button>View Project</Button>                        
+                          </Link>                   
                     </div>
                   </div>
                 </div>

@@ -162,7 +162,9 @@ export default function Header() {
         {/* Desktop Actions */}
         <div className="hidden items-center justify-end gap-x-3  lg:flex lg:flex-1">
           {/* Searchbar here */}
-          <SearchBar />
+          <Suspense fallback={<div>Loading...</div>}>
+            <SearchBar />
+          </Suspense>
           {/* email here */}
           <div className="w-[38px] h-{38px] rounded-lg border-1 border-gray-600 py-[.4rem] pl-[.4rem] pr-1 text-center">
             <Link

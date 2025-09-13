@@ -14,17 +14,6 @@ export default function SearchBar({ placeholder }) {
   const pathname = usePathname();
   const { replace } = useRouter();
 
-  //   function handleSearch(term) {
-  //     console.log(term);
-  //     const params = new URLSearchParams(searchParams);
-  //     if (term) {
-  //       params.set("query", term);
-  //     } else {
-  //       params.delete("query");
-  //     }
-  //     replace(`${pathname}?${params.toString()}`);
-  //     setResults(data.results);
-  //   }
   const handleSearch = async (e) => {
     e.preventDefault();
     setLoading(true);

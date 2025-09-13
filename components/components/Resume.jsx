@@ -17,7 +17,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Menu, ShoppingBag, X, Mail, Search } from "lucide-react";
+import { Mail } from "lucide-react";
 import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io5";
 
 function Resume() {

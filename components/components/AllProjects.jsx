@@ -113,7 +113,7 @@ function AllProjects() {
                     return (
                       <span
                         key={index}
-                        class="bg-gray-200 dark:bg-black dark:text-white w-[100px] inline-flex items-center justify-center text-center rounded-full px-3 py-2 text-xs font-semibold text-gray-700 mx-auto mb-2"
+                        class="bg-gray-200 dark:bg-gray-400 dark:text-white w-[100px] inline-flex items-center justify-center text-center rounded-full px-3 py-2 text-xs font-semibold text-gray-700 mx-auto mb-2"
                       >
                         {pill}
                       </span>

@@ -321,7 +321,7 @@
         "https://i.ibb.co/60WNqZTq/npm.png",
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
-      "featured": true,
+      "featured": false,
       "category": "sites",
       "pills": ["Next", "Tailwind"]
     }

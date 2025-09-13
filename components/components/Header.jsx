@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Menu, ShoppingBag, X, Mail, Search } from "lucide-react";
+import { Menu, X, Mail, Search } from "lucide-react";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -13,18 +13,9 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io5";
 import ThemeToggleButton from "@/components/ui/theme-toggle-button";
-import dynamic from "next/dynamic";
 import SearchBar from "@/components/components/SearchBar";
 
 const skillsItems = [
@@ -55,9 +46,9 @@ const projectsItems = [
     description: "all projects",
   },
   {
-    title: "Project Dashboard",
+    title: "Overview",
     href: "/filter",
-    description: "filter projects",
+    description: "filter projects, overview",
   },
 ];
 
@@ -141,7 +132,7 @@ export default function Header() {
                 <Link href="/projects">Projects</Link>
               </NavigationMenuTrigger>
               {isDropdownOpen && (
-                <ul className="dropdown-menu absolute left-0 mt-2 w-32 rounded-md bg-white text-left shadow-lg">
+                <ul className="dropdown-menu absolute left-0 mt-2 w-32 z-20 rounded-md bg-white text-left shadow-lg">
                   <li className="text-black px-2">
                     <Link href="/featured-projects" className="text-black">
                       <span className="text-black">Featured Apps</span>
@@ -151,7 +142,7 @@ export default function Header() {
                     <Link href="/projects">Projects</Link>
                   </li>
                   <li className="text-black px-2">
-                    <Link href="/filter">Sort Projects</Link>
+                    <Link href="/filter">Projects Overview</Link>
                   </li>
                 </ul>
               )}

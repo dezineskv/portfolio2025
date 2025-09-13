@@ -177,7 +177,7 @@ export const columns = [
     header: "Project Image",
     cell: ({ row }) => (
       <div className="">
-        <img src={row.getValue("image")} alt="image" />
+        <img src={row.getValue("image")} alt="image" className="max-h-[240px] max-w-[300px]"/>
       </div>
     ),
   },

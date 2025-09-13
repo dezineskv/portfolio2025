@@ -17,6 +17,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Menu, ShoppingBag, X, Mail, Search } from "lucide-react";
+import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io5";
 
 function Resume() {
   return (
@@ -66,19 +68,138 @@ function Resume() {
                         Professional Experience
                       </AccordionTrigger>
                       <AccordionContent className="flex flex-col gap-4 text-balance">
-                        <p>frontend, email</p>
+                        <div className="flex flex-col gap-6">
+                          <div>
+                            <p>
+                              <span className="font-bold">
+                                Web & Email Developer&nbsp;
+                              </span>
+                              Intuitive Surgical (contractor)
+                              <p className="mb-4">
+                                DECEMBER 2024 - DECEMBER 2025 | Remote
+                              </p>
+                              <p>
+                                ● Developed responsive, customized email
+                                templates and landing pages
+                              </p>
+                            </p>
+                          </div>
+
+                          <div>
+                            <p>
+                              <span className="font-bold">
+                                Marketing Technology Developer&nbsp;
+                              </span>
+                              Marvel Marketers
+                              <p className="mb-4">
+                                APRIL 2022 - AUGUST 2023 | Remote
+                              </p>
+                              <p>
+                                ● Marketing Automation API for Marketo using
+                                REST ● Developed responsive, customized email
+                                templates and landing pages ● SQL list pulls via
+                                'plx' for Google Cloud clients ● WordPress admin
+                                for company site and won Superhero of the
+                                Quarter Q12023
+                              </p>
+                            </p>
+                          </div>
+
+                          <div>
+                            <p>
+                              <span className="font-bold">
+                                Marketing Automation Specialist&nbsp;
+                              </span>
+                              Meta (contractor)
+                              <p className="mb-4">
+                                APRIL 2021 - APRIL 2022 | Remote
+                              </p>
+                              <p>
+                                ● Global Business Marketing department ● Marketo
+                                email build, scheduling, Salesforce syncing &
+                                reporting ● Collaboration with program managers
+                                & stakeholders
+                              </p>
+                            </p>
+                          </div>
+
+                          <div>
+                            <p>
+                              <span className="font-bold">
+                                Programs Manager&nbsp;
+                              </span>
+                              Google Cloud (contractor)
+                              <p className="mb-4">
+                                JULY 2018 - JULY 2020 | San Francisco, CA
+                              </p>
+                              <p>
+                                ● Provisioned user roles & permissions via G
+                                Suite, as super admin of a Cloud Community ●
+                                Maintained confidential material access of
+                                product roadmaps ● Initialized the database list
+                                of all existing and new community users ●
+                                Collaborated with engineers to configure
+                                in-house email platform ● Created engagement
+                                reporting from BigQuery & Google Analytics
+                              </p>
+                            </p>
+                          </div>
+                        </div>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-3">
-                      <AccordionTrigger>Location</AccordionTrigger>
+                      <AccordionTrigger>
+                        Other Certificates Include
+                      </AccordionTrigger>
                       <AccordionContent className="flex flex-col gap-4 text-balance">
-                        <p>San Francisco, CA | Remote</p>
+                        <p>
+                          Google Cloud: G Suite Administrator Fundamentals 2019
+                          | Coursera Google Cloud: Managing Security in Google
+                          Cloud Platform 2019 | Coursera Programming
+                          Fundamentals with Javascript, HTML and CSS 2020 |
+                          Coursera/Duke University Salesforce Certification:
+                          Marketing Cloud Email Specialist 2020 | Salesforce ​
+                          Javascript Fundamentals 2023| w3schools ​ Frontend
+                          Fundamentals Bootcamp 2023 | OneCodeCamp ​ AWS Cloud
+                          Essentials Practioner badge 2024 | AWS SkillsBuilder
+                        </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-4">
+                      <AccordionTrigger>Location</AccordionTrigger>
+                      <AccordionContent className="flex flex-col gap-4 text-balance">
+                        <p>San Francisco, CA or Remote</p>
+                      </AccordionContent>
+                    </AccordionItem>
+                    <AccordionItem value="item-5">
                       <AccordionTrigger>Contact Me</AccordionTrigger>
                       <AccordionContent className="flex flex-col gap-4 text-balance">
-                        <p>Email, github, linkedin</p>
+                        <div className="flex flex-row gap-4">
+                          <Link
+                            href="mailto:kimbotickool@gmail.com"
+                            target="_blank"
+                            rel="noopener
+              noreferrer"
+                          >
+                            <Mail className="" />
+                          </Link>
+                          <Link
+                            href="https://github.com/dezineskv"
+                            target="_blank"
+                            rel="noopener
+              noreferrer"
+                          >
+                            <IoLogoGithub className="text-2xl" />
+                          </Link>
+                          <Link
+                            href="https://www.linkedin.com/in/kim-vidal"
+                            target="_blank"
+                            rel="noopener
+              noreferrer"
+                          >
+                            <IoLogoLinkedin className="text-2xl" />
+                          </Link>
+                        </div>
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>

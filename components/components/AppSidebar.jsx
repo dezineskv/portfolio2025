@@ -18,11 +18,11 @@ const items = [
     url: "/",
     icon: Home,
   },
-  {
-    title: "Search",
-    url: "#",
-    icon: Search,
-  }
+  // {
+  //   title: "   SearchBar ",
+  //   url: "#",
+  //   icon: Search,
+  // }
 ];
 
 export function AppSidebar() {

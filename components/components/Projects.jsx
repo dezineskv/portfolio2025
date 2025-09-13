@@ -26,14 +26,13 @@ function Projects() {
   return (
     <>
       <div className="bg-secondary-foreground pt-10 w-full">
-        <h1 className="text-5xl font-bold text-center text-background pt-8">
+        <h1 className="text-5xl font-bold text-center text-background pt-8 dark:text-gray-300">
           Featured Projects
         </h1>
         <div className="sm:w-full sm:px-6 sm:mx-auto md:w-5xl pb-8 md:pt-6  ">
-          
           {items.map((item) => (
             <div className="mt-8 mb-10" key={item.id}>
-             <FeaturedCarousel item={item} />
+              <FeaturedCarousel item={item} />
             </div>
           ))}
         </div>

@@ -6,6 +6,8 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/components/AppSidebar";
+import { useRouter, useSearchParams } from "next/navigation";
+import { useState, useEffect, Suspense } from "react";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -16,14 +18,30 @@ import {
 } from "@/components/ui/breadcrumb";
 import ChartPie from "@/components/components/Chart";
 import { BarCharts } from "@/components/components/BarCharts";
-import { columns, Payment } from "./columns";
 import DataTable from "@/components/components/DataTable";
+import SearchBar from "@/components/components/SearchBar";
 
 // async function getData() {
 // Fetch data from API here.
 
 export default function Page() {
-  //   const data = getData();
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const searchQuery = searchParams.get("q");
+  const [inputValue, setInputValue] = useState(searchQuery || "");
+
+  const handleSearch = (event) => {
+    const term = event.target.value;
+    setInputValue(term);
+
+    const newParams = new URLSearchParams(searchParams);
+    if (term) {
+      newParams.set("q", term);
+    } else {
+      newParams.delete("q");
+    }
+    router.replace(`?${newParams.toString()}`);
+  };
 
   return (
     <SidebarProvider>

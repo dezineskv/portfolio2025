@@ -16,7 +16,8 @@ import Link from "next/link";
 const TwoCol = () => {
   return (
     <>
-      <div className="pt-18 w-full bg-secondary-foreground">
+      <div className="pt-18 w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+
         <h2 className="font-bold text-background dark:text-gray-300 text-5xl mx-auto text-center w-full">
           About Me
         </h2>

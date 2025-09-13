@@ -56,31 +56,31 @@ function AllProjects() {
       <div className="md:max-w-2xl mx-auto pb-4">
         <div className="inline-flex justify-between items-center p-2 mr-6 rounded-lg gap-1 w-2xl mx-auto">
           <button
-            className={`${isActive("all")} text-sm py-2 px-4 w-[90px] rounded-lg`}
+            className={`${isActive("all")} text-sm py-2 px-4 w-[90px] rounded-lg hover:bg-black`}
             onClick={() => setFilter("all")}
           >
             All
           </button>
           <button
-            className={`${isActive("apps")} text-sm py-2 px-4 w-[90px] rounded-lg`}
+            className={`${isActive("apps")} text-sm py-2 px-4 w-[90px] rounded-lg hover:bg-black`}
             onClick={() => setFilter("apps")}
           >
             Apps
           </button>
           <button
-            className={`${isActive("sites")} text-sm py-2 px-4 w-[90px] rounded-lg`}
+            className={`${isActive("sites")} text-sm py-2 px-4 w-[90px] rounded-lg hover:bg-black`}
             onClick={() => setFilter("sites")}
           >
             Sites
           </button>
           <button
-            className={`${isActive("yes")} text-sm py-2 px-4 w-[120px] rounded-lg`}
+            className={`${isActive("yes")} text-sm py-2 px-4 w-[120px] rounded-lg hover:bg-black`}
             onClick={() => setFilter("yes")}
           >
             Featured
           </button>
           <button
-            className={`${isActive("projects")} text-sm py-2 px-4 w-[180px] rounded-lg`}
+            className={`${isActive("projects")} text-sm py-2 px-4 w-[180px] rounded-lg hover:bg-black`}
             onClick={() => setFilter("projects")}
           >
             Projects/Features
@@ -88,45 +88,52 @@ function AllProjects() {
         </div>
       </div>
       {/* map through all projects here */}
-      <div className="flex sm:flex-col md:flex-row justify-center md:flex-wrap md:w-6xl mx-auto gap-4 space-y-6 sm:px-6">
+      <div className="flex sm:flex-col md:flex-row justify-center md:flex-wrap md:w-6xl mx-auto gap-4 space-y-2 sm:px-4">
         {filteredData.map((item) => {
           return (
-            <div key={item.id}>
-              <Card className="flex-1 sm:flex-col md:w-[350px] md:h-[440px] border-t-lg border-r-lg border-b-lg border-l-lg border-2 border-black shadow-lg">
-                <CardHeader className="w-[350px] mx-auto text-center">
-                  <CardTitle>{item.title}</CardTitle>
-                  <CardDescription className="line-clamp-3">
-                    {item.description}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <Image
-                    src={item.logo}
-                    alt="logos"
-                    width={100}
-                    height={100}
-                    className="mx-auto"
-                  />
-                  <div className="flex flex-col gap-2">
-                    <div className="flex items-center pt-6 text-md line-clamp-3 ">
-                      {item.features}
-                    </div>
+            <div key={item.id} className="w-[260px] h-[420px] ">
+              <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
+                <Image
+                  src={item.image}
+                  alt="images"
+                  width={258}
+                  height={180}
+                  className="w-[258px] min-h-[180px] max-h-[180px] h-[180px] overflow-hidden bg-cover hover:scale-150"
+                />
+                <div class="px-6 pt-4 pb-4">
+                  <div class="font-bold text-xl mb-2 text-background">
+                    {item.title}
                   </div>
-                </CardContent>
-                <CardFooter className="flex-col gap-1 mt-auto">
+                  <p class="text-gray-700 text-base line-clamp-2">
+                    {item.description}
+                  </p>
+                </div>
+                <div class="px-6 py-2 flex flex-row gap-1">
+                  {item.pills.map((pill, index) => {
+                    return (
+                      <span
+                        key={index}
+                        class="bg-gray-200 dark:bg-black dark:text-white w-[100px] inline-flex items-center justify-center text-center rounded-full px-3 py-2 text-xs font-semibold text-gray-700 mx-auto mb-2"
+                      >
+                        {pill}
+                      </span>
+                    );
+                  })}
+                </div>
+                <div class="px-6 pt-auto mt-auto pb-4">
                   <Link href={`/projects/${item.id}`}>
-                    <Button className="">View</Button>
+                    <Button className="">Details</Button>
                   </Link>
-                </CardFooter>
-              </Card>
+                </div>
+              </div>
             </div>
           );
         })}
       </div>
-      <div className="mx-auto text-center pt-4 pb-10">
+      <div className="mx-auto text-center pt-3 pb-10">
         <Link href="/filter">
           <Button className="text-white dark:text-black bg-foreground">
-            Projects
+            Projects Overview
           </Button>
         </Link>
       </div>

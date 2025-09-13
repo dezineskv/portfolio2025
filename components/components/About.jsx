@@ -19,10 +19,10 @@ function About() {
         <h1 className="text-5xl font-bold text-center text-background pt-8">
           About
         </h1>
-        <div className="sm:w-full sm:px-6 sm:mx-auto md:w-5xl pb-8 md:pt-6 ">
+        <div className="sm:w-full sm:px-6 sm:mx-auto md:w-5xl pb-8 md:pt-3 ">
           <div className="mt-8 mb-10">
             <Card className="flex sm:flex-col border-t-lg border-r-lg border-b-lg border-l-lg border-2 border-gray-300">
-              <CardHeader className="">
+              <CardHeader className="border-b-1 border-pink-300 py-3">
                 <CardTitle>Kim</CardTitle>
                 <CardDescription>
                   I am a front-end developer with a passion for creating

@@ -38,7 +38,8 @@
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
       "featured": true,
-      "category": "apps"
+      "category": "apps",
+      "pills": ["Next", "Typescript", "Tailwind"]
     },
     {
       "id": "2",
@@ -56,10 +57,10 @@
           "ShadCN UI components customized"
         ]
       },
-      "image": "https://i.ibb.co/jpCDLTg/next-app-productpage.jpg",
+      "image": "https://i.ibb.co/bjRrLZn2/ecomm-prods.jpg",
       "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
       "images": [
-        "https://i.ibb.co/bjRrLZn2/ecomm-prods.jpg",
+        "https://i.ibb.co/jpCDLTg/next-app-productpage.jpg",
         "https://i.ibb.co/Dg77mvXW/ecomm-dash.jpg",
         "https://i.ibb.co/rR2FrZ0B/ecomm-mobile.jpg",
         "https://i.ibb.co/N60H42Hn/Screenshot-2025-06-26-174312.png"
@@ -75,7 +76,8 @@
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
       "featured": true,
-      "category": "sites"
+      "category": "sites",
+      "pills": ["Next", "Typescript", "Tailwind"]
     },
     {
       "id": "3",
@@ -107,7 +109,8 @@
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
       "featured": true,
-      "category": "apps"
+      "category": "apps",
+      "pills": ["React", "Local Storage"]
     },
     {
       "id": "4",
@@ -136,7 +139,8 @@
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
       "featured": false,
-      "category": "sites"
+      "category": "sites",
+      "pills": ["React", "Tailwind", "MongoDB"]
     },
     {
       "id": "5",
@@ -168,7 +172,8 @@
         "https://i.ibb.co/60WNqZTq/npm.png"
       ],
       "featured": false,
-      "category": "sites"
+      "category": "sites",
+      "pills": ["React", "Tailwind"]
     },
     {
       "id": "6",
@@ -201,7 +206,8 @@
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
       "featured": false,
-      "category": "projects"
+      "category": "projects",
+      "pills": ["Next", "Tailwind", "API"]
     },
     {
       "id": "7",
@@ -229,7 +235,8 @@
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
       "featured": false,
-      "category": "projects"
+      "category": "projects",
+      "pills": ["HTML", "JavaScript", "API"]
     },
     {
       "id": "8",
@@ -257,7 +264,8 @@
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
       "featured": false,
-      "category": "projects"
+      "category": "projects",
+      "pills": ["HTML", "JavaScript", "API"]
     },
     {
       "id": "9",
@@ -284,7 +292,38 @@
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
       "featured": false,
-      "category": "projects"
+      "category": "projects",
+      "pills": ["HTML", "JavaScript", "API"]
+    },
+    {
+      "id": "10",
+      "title": "Portfolio Site",
+      "description": "ShadCN, dark mode option, and more.",
+      "stack": "NextJs, TailwindCSS, Node.js, MongoDB, Vercel",
+      "features": "NextJs app, API calls, Tailwind, shadcn UI elements, State, dark/light themes, Vercel",
+      "notes": "here...",
+      "includes": {
+        "items": [
+          "API calls on static data",
+          "UI elements like charts, accordion, carousel",
+          "project details page pulling data",
+          "dark mode option",
+          "ShadCN UI components customized"
+        ]
+      },
+      "image": "https://i.ibb.co/4RnC7Gwn/portfolio-1.png",
+      "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
+      "images": ["https://i.ibb.co/BHnYYTMC/portfolio-2.png"],
+      "icons": [
+        "https://i.ibb.co/HDPXjcCM/nextjs2.png",
+        "https://i.ibb.co/SXY0YdBr/tailwindcss.png",
+        "https://i.ibb.co/LX2q0WSB/nodejs.png",
+        "https://i.ibb.co/60WNqZTq/npm.png",
+        "https://i.ibb.co/spy4N7Zq/github.png"
+      ],
+      "featured": true,
+      "category": "sites",
+      "pills": ["Next", "Tailwind"]
     }
   ]
 }

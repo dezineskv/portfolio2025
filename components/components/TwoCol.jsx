@@ -17,13 +17,12 @@ const TwoCol = () => {
   return (
     <>
       <div className="pt-18 w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-
         <h2 className="font-bold text-background dark:text-gray-300 text-5xl mx-auto text-center w-full">
           About Me
         </h2>
         <div className="w-full flex flex-col md:flex-row justify-between pb-4 md:w-6xl mx-auto gap-4">
           <MyCards />
-          <div className="sm:w-full sm:max-w-[450px] sm:px-6 sm:mx-auto md:w-[40%] pb-4 md:pt-10 md:pl-8 ">
+          <div className="sm:w-full sm:max-w-[450px] sm:mx-auto sm:px-6 md:w-[40%] pb-4 md:pt-10 md:pl-8 ">
             <div className="mt-10 mb-10">
               <Card className="flex sm:flex-col md:w-[400px] md:h-[368px] border-t-lg border-r-lg border-b-lg border-l-lg border-2 border-gray-300">
                 <CardHeader className="w-[400px]">

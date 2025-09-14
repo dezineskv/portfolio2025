@@ -24,13 +24,13 @@ export default function Footer() {
           </div>
           <div className="flex gap-2 px-4 text-lg font-medium sm:flex-col md:max-w-lg md:flex-row md:justify-between">
             <div>
-              <Link href="/projects">Projects</Link> |
+              <Link href="/projects">Projects |</Link>
             </div>
             <div>
-              <Link href="/about">About</Link> |
+              <Link href="/about">About |</Link>
             </div>
             <div>
-              <Link href="/skills">Skills</Link> |{" "}
+              <Link href="/skills">Skills |</Link>
             </div>
             <div className="flex flex-row gap-2 md:ml-6">
               <Link

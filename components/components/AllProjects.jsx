@@ -53,8 +53,8 @@ function AllProjects() {
         Projects
       </h1>
       {/* buttons to click by category */}
-      <div className="flex sm:flex-col flex-row  sm:w-[90%] flex-wrap  md:max-w-2xl mx-auto pb-4">
-        <div className="inline-flex md:flex-row flex-wrap md:justify-between gap-2 items-center p-2 md:mr-6 rounded-lg md:w-2xl mx-auto">
+      <div className="flex sm:flex-col flex-row  sm:w-[80%] sm:justify-center flex-wrap  md:max-w-2xl mx-auto pb-4">
+        <div className="inline-flex sm:justify-center md:flex-row flex-wrap gap-2 items-center p-8 md:pr-6 rounded-lg md:w-2xl">
           <button
             className={`${isActive("all")} text-sm py-2 px-4 w-[90px] rounded-lg hover:bg-black`}
             onClick={() => setFilter("all")}
@@ -88,7 +88,7 @@ function AllProjects() {
         </div>
       </div>
       {/* map through all projects here */}
-      <div className="flex sm:flex-col md:flex-row justify-center flex-wrap md:w-6xl mx-auto gap-4 space-y-2 sm:px-4">
+      <div className="flex sm:flex-col md:flex-row justify-center flex-wrap md:w-6xl sm:w-sm mx-auto sm:pl-14 gap-4 space-y-2">
         {filteredData.map((item) => {
           return (
             <div key={item.id} className="w-[260px] h-[420px] ">

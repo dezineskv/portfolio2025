@@ -21,7 +21,7 @@ import SearchBar from "@/components/components/SearchBar";
 const skillsItems = [
   {
     title: "HTML, CSS, Frontend, MERN,...",
-    href: "/",
+    href: "/skills",
     description: "HTML, CSS, Frontend, MERN,...",
   },
 ];

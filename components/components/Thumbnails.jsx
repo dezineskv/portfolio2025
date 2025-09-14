@@ -10,11 +10,11 @@ export default function ImageGallery({ image, images, includes, title }) {
   const thumbnails = images || [];
 
   return (
-    <div>
+    <div className="flex sm:flex-col">
       {/* Large Image */}
       <div
         style={{ marginBottom: "20px" }}
-        className="flex w-full flex-row gap-1"
+        className="flex md:w-full sm:flex-col md:flex-row gap-1"
       >
         <Image
           src={largeImageSrc}
@@ -24,7 +24,7 @@ export default function ImageGallery({ image, images, includes, title }) {
           priority
           className="mr-auto border-1 border-gray-800 rounded-lg mb-6"
         />
-        <div className="flex flex-col mr-auto pl-4 gap-2 text-sm text-[#99a1af]">
+        <div className="flex flex-col md:mr-auto pl-4 gap-2 text-sm text-[#99a1af]">
           <p>
             <span className="font-bold pb-2 text-xl text-black">
               {title} includes:
@@ -39,7 +39,6 @@ export default function ImageGallery({ image, images, includes, title }) {
           </div>
         </div>
       </div>
-
       {/* Thumbnails */}
       <div style={{ display: "flex", gap: "10px" }}>
         {thumbnails.map((thumb, index) => (

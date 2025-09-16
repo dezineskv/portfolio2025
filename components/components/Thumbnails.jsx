@@ -11,7 +11,7 @@ export default function ImageGallery({ image, images, includes, title }) {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col ">
         {/* Large Image */}
         <div
           style={{ marginBottom: "20px" }}
@@ -42,7 +42,7 @@ export default function ImageGallery({ image, images, includes, title }) {
         </div>
       </div>
       {/* Thumbnails */}
-      <div style={{ display: "flex", gap: "10px" }}>
+      <div style={{ display: "flex", gap: "10px" }} className="flex flex-wrap flex-row justify-between sm:w-full">
         {thumbnails.map((thumb, index) => (
           <div key={index} onClick={() => setLargeImageSrc(thumb)}>
             <Image

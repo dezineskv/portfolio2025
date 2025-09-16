@@ -34,7 +34,7 @@ const chartData = [
 
 const chartConfig = {
   views: {
-    label: "Projects Completed",
+    label: "Projects",
   },
   desktop: {
     label: "Desktop",
@@ -58,10 +58,10 @@ export function BarCharts() {
   );
 
   return (
-    <Card className="py-0">
-      <CardHeader className="flex flex-col items-stretch border-b !p-0 sm:flex-row">
-        <div className="flex flex-1 flex-col justify-center gap-1 px-6 pt-4 pb-3 sm:!py-0">
-          <CardTitle>Projects</CardTitle>
+    <Card className="py-0 sm:w-[80%] h-full md:w-full sm:px-auto max-h-[440px]">
+      <CardHeader className="flex flex-row items-stretch border-b !p-0 sm:flex-row sm:mx-auto">
+        <div className="text-left mr-auto gap-1 pt-4 w-[280px] p-3 ">
+          <CardTitle className="pt-4 pr-4">Projects</CardTitle>
           <CardDescription>Showing month by month</CardDescription>
         </div>
         <div className="flex">
@@ -71,13 +71,13 @@ export function BarCharts() {
               <button
                 key={chart}
                 data-active={activeChart === chart}
-                className="data-[active=true]:bg-muted/50 relative z-30 flex flex-1 flex-col justify-center gap-1 border-t px-6 py-4 text-left even:border-l sm:border-t-0 sm:border-l sm:px-8 sm:py-6"
+                className="data-[active=true]:bg-muted/50 relative z-30 flex flex-1 flex-col justify-center gap-1 border-t px-6 py-4 even:border-l sm:border-t-0 sm:border-l sm:px-8 sm:py-6"
                 onClick={() => setActiveChart(chart)}
               >
-                <span className="text-muted-foreground text-xs">
+                <span className="text-muted-foreground text-xs mx-10 pl-10">
                   {chartConfig[chart].label}
                 </span>
-                <span className="text-lg leading-none font-bold sm:text-3xl">
+                <span className="text-lg leading-none font-bold sm:text-3xl pl-10">
                   {total[key].toLocaleString()}
                 </span>
               </button>

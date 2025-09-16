@@ -51,7 +51,7 @@ export default function ImageGallery({ image, images, includes, title }) {
               width={160}
               height={120}
               style={{ cursor: "pointer" }}
-              className="border-1 border-gray-300 rounded-lg w-[160px] h-[120px]"
+              className="border-1 border-gray-300 rounded-lg min-w-[160px] h-[120px]"
             />
           </div>
         ))}

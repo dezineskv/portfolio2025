@@ -263,7 +263,7 @@ export default function DataTable() {
   });
 
   return (
-    <div className="bg-background mx-auto">
+    <div className="bg-background mx-auto md:w-full">
       <div className="my-container mx-auto px-10 pb-10">
         <h1 className="mb-4 text-4xl font-bold">Projects</h1>
         <p>Filter projects</p>
@@ -377,7 +377,7 @@ export default function DataTable() {
             </Button>
           </div>
           <Link href="/">
-            <Button className="text-md max-w-1/2 rounded-md bg-gray-900 py-6 text-white shadow-lg transition-all hover:scale-105 sm:mx-6 md:px-10">
+            <Button className="text-md md:max-w-1/2 rounded-md bg-gray-900 py-6 text-white shadow-lg transition-all hover:scale-105 sm:mx-6 sm:w-[100px] md:px-10">
               Home
             </Button>
           </Link>

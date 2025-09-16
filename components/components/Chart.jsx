@@ -58,15 +58,15 @@ const chartConfig = {
 
 export default function ChartPie() {
   return (
-    <Card className="flex flex-col">
-      <CardHeader className="items-center pb-0">
+    <Card className="py-0 sm:w-[80%] md:w-full sm:px-auto">
+      <CardHeader className="flex flex-col w-full items-stretch border-b p-4 sm:mx-auto mt-2">
         <CardTitle>Featured Projects</CardTitle>
         <CardDescription>January - September 2025</CardDescription>
       </CardHeader>
-      <CardContent className="flex-1 pb-0">
+      <CardContent className="flex-1 pb-0 ">
         <ChartContainer
           config={chartConfig}
-          className="[&_.recharts-pie-label-text]:fill-foreground mx-auto aspect-square max-h-[250px] pb-0"
+          className="[&_.recharts-pie-label-text]:fill-foreground max-w-[240px] max-h-[440px] mx-auto aspect-square h-full w-full pb-0 mb-0"
         >
           <PieChart>
             <ChartTooltip content={<ChartTooltipContent hideLabel />} />
@@ -78,7 +78,7 @@ export default function ChartPie() {
         <div className="flex items-center gap-2 leading-none font-medium">
           Trending <TrendingUp className="h-4 w-4" />
         </div>
-        <div className="text-muted-foreground leading-none">
+        <div className="text-muted-foreground leading-none pb-6">
           Showing featured projects for 3 quarters
         </div>
       </CardFooter>

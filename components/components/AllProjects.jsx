@@ -96,9 +96,9 @@ function AllProjects() {
                 <Image
                   src={item.image}
                   alt="images"
-                  width={258}
+                  width={248}
                   height={180}
-                  className="w-[258px] min-h-[180px] max-h-[180px] h-[180px] overflow-hidden bg-cover hover:scale-150"
+                  className="w-[248px] min-h-[180px] max-h-[180px] h-[180px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
                 />
                 <div class="px-6 pt-4 pb-4">
                   <div class="font-bold text-xl mb-2 text-background">

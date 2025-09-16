@@ -44,10 +44,10 @@
     {
       "id": "2",
       "title": "Ecomm Site",
-      "description": "Axios, DaisyUI, dark mode option, and more.",
+      "description": "school project - Axios, DaisyUI, dark mode option, and more.",
       "stack": "NextJs, Typescript, TailwindCSS, Node.js, MongoDB, Vercel",
       "features": "NextJs app, Typescript, API, Tailwind, shadcn UI elements, State, dark/light themes, Vercel",
-      "notes": "here...",
+      "notes": "NextJs plus Typescript, MongoDB",
       "includes": {
         "items": [
           "API consumption with Axios",
@@ -84,8 +84,8 @@
       "title": "Todos Tracker App",
       "description": "App that includes CRUD operations",
       "stack": "React, Vite, TailwindCSS, Node.js, LocalStorage, Google Pages",
-      "features": "This is a basic app that allows users to input their tasks that include a due date. The tasks can be edited or deleted. They can be sorted by today's tasks or this week's or by pending status.",
-      "notes": "here...",
+      "features": "school project - basic app that allows users to input their tasks that include a due date. The tasks can be edited or deleted. They can be sorted by today's tasks or this week's or by pending status.",
+      "notes": "Got help from mentors to make it fullstack",
       "includes": {
         "items": [
           "modal for editing the specific task",
@@ -117,8 +117,8 @@
       "title": "Veggie Site",
       "description": "This React app came from a Figma design of an ecommerce website. I used Tailwind to build the site. Responsive and customized Tailwind components.",
       "stack": "React, Vite, TailwindCSS, Node.js, MongoDB, Google Pages",
-      "features": "Frontend site built based off of TS4U Figma design. I used Tailwind and the app uses an internal Db.",
-      "notes": "here...",
+      "features": "Frontend site school project - built based off of TS4U Figma design. I used Tailwind and the app uses an internal Db.",
+      "notes": "TS4U Figma design provided",
       "includes": {
         "items": ["filtering and conditional rendering"]
       },
@@ -147,7 +147,7 @@
       "title": "Produce & Login Site",
       "description": "Tailwind & DaisyUI. Also API data. Light mode & dark mode rendering, responsive, more...",
       "stack": "React, Vite, TailwindCSS, Node.js",
-      "features": "Basic frontend and user sign-up plus sign-in capability. Rendering of a list of products.",
+      "features": "school project - Basic frontend and user sign-up plus sign-in capability. Rendering of a list of products.",
       "notes": "here...",
       "includes": {
         "items": [
@@ -180,12 +180,12 @@
       "title": "UI features",
       "description": "NextJs app, Tailwind & DaisyUI. Also API data. Original design/layout. Light mode & dark mode functionality, more...",
       "stack": "NextJs, TailwindCSS, Node.js",
-      "features": "Frontend display of UI components including DaisyUI elements. Rendering of a list of products.",
+      "features": "Frontend school project - display of UI components including DaisyUI elements. Rendering of a list of products.",
       "notes": "here...",
       "includes": {
         "items": [
           "frontend UI features & components",
-          "There's also a rendering of a list of products."
+          "also a rendering of a list of products."
         ]
       },
       "image": "https://i.ibb.co/y2M2hBk/ui-homepage.png",
@@ -212,10 +212,10 @@
     {
       "id": "7",
       "title": "Weather App",
-      "description": "Frontend rendering of weather per city input",
+      "description": "Frontend school project - rendering of weather per city input",
       "stack": "HTML, CSS, JavaScript, Node.js",
       "features": "API call to render the weather in Farenheit, by city input",
-      "notes": "here...",
+      "notes": "converted to farenheit",
       "includes": {
         "items": [
           "frontend feature",
@@ -241,10 +241,10 @@
     {
       "id": "8",
       "title": "Music App",
-      "description": "Frontend rendering of music per 2 input options",
+      "description": "Frontend school project - rendering of music per 2 input options",
       "stack": "HTML, CSS, JavaScript, Node.js",
       "features": "API call to render music lyrics & info and click to hear the song",
-      "notes": "here...",
+      "notes": "Background image was provided",
       "includes": {
         "items": [
           "frontend feature",
@@ -270,10 +270,10 @@
     {
       "id": "9",
       "title": "Bank page",
-      "description": "Frontend page that lets the user interact with deposit, balance and withrawal amounts",
+      "description": "Frontend school project - page that lets the user interact with deposit, balance and withrawal amounts",
       "stack": "HTML, CSS, JavaScript, Node.js",
       "features": "Frontend page that lets the user interact with deposit, balance and withrawal amounts",
-      "notes": "here...",
+      "notes": "Background image was provided",
       "includes": {
         "items": [
           "frontend feature",
@@ -295,8 +295,47 @@
       "category": "projects",
       "pills": ["HTML", "JavaScript", "API"]
     },
+
     {
       "id": "10",
+      "title": "OpenAI/Snowflake",
+      "description": "OpenAI & Snowflake playground project",
+      "stack": "OpenAI, Snowflake",
+      "features": "Followed along with a demo project. User selects from a dropdown then the dynamic result is displayed.",
+      "notes": "here...",
+      "includes": {
+        "items": ["API calls on static data", "OpenAI/Snowflake"]
+      },
+      "image": "https://i.ibb.co/v6N4Ky71/ee7859-3da1a27d28024c8eae9f676af329340d-mv2.jpg",
+      "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
+      "images": [
+        "https://i.ibb.co/v6N4Ky71/ee7859-3da1a27d28024c8eae9f676af329340d-mv2.jpg"
+      ],
+      "icons": ["https://i.ibb.co/C3PXt4w3/html5.png"],
+      "featured": false,
+      "category": "projects",
+      "pills": ["AWS"]
+    },
+    {
+      "id": "11",
+      "title": "AWS",
+      "description": "Followed a demo to build & host an AWS micro-site for a portfolio/resume",
+      "stack": "AWS, HTML",
+      "features": "accordion dropdowns for resume sections and a picture",
+      "notes": "here...",
+      "includes": {
+        "items": ["AWS hosting"]
+      },
+      "image": "https://i.ibb.co/DPLRmY4j/awspage-2.jpg",
+      "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
+      "images": ["https://i.ibb.co/DPLRmY4j/awspage-2.jpg"],
+      "icons": ["https://i.ibb.co/C3PXt4w3/html5.png"],
+      "featured": false,
+      "category": "projects",
+      "pills": ["OpenAI", "Snowflake"]
+    },
+    {
+      "id": "12",
       "title": "Portfolio Site",
       "description": "ShadCN, dark mode option, and more.",
       "stack": "NextJs, TailwindCSS, Node.js, MongoDB, Vercel",
@@ -308,7 +347,8 @@
           "UI elements like charts, accordion, carousel",
           "project details page pulling data",
           "dark mode option",
-          "ShadCN UI components customized"
+          "ShadCN UI components customized",
+          "props, state, theme-provider, data table"
         ]
       },
       "image": "https://i.ibb.co/4RnC7Gwn/portfolio-1.png",

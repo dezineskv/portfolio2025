@@ -110,8 +110,7 @@ const data = [
     amount: 1,
     title: "AWS",
     stack: "AWS, HTML",
-    image:
-      "https://i.ibb.co/v6N4Ky71/ee7859-3da1a27d28024c8eae9f676af329340d-mv2.jpg",
+    image: "https://i.ibb.co/DPLRmY4j/awspage-2.jpg",
   },
   ,
   {

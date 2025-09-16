@@ -91,42 +91,44 @@ function AllProjects() {
       <div className="flex sm:flex-col md:flex-row justify-center flex-wrap md:w-6xl sm:w-sm mx-auto sm:pl-14 gap-4 space-y-2">
         {filteredData.map((item) => {
           return (
-            <div key={item.id} className="w-[260px] h-[420px] ">
-              <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
-                <Image
-                  src={item.image}
-                  alt="images"
-                  width={248}
-                  height={180}
-                  className="w-[248px] min-h-[180px] max-h-[180px] h-[180px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
-                />
-                <div class="px-6 pt-4 pb-4">
-                  <div class="font-bold text-xl mb-2 text-background">
-                    {item.title}
+            <Link href={`/projects/${item.id}`}>
+              <div key={item.id} className="w-[260px] h-[420px] ">
+                <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
+                  <Image
+                    src={item.image}
+                    alt="images"
+                    width={248}
+                    height={180}
+                    className="w-[248px] min-h-[180px] max-h-[180px] h-[180px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
+                  />
+                  <div class="px-6 pt-4 pb-4">
+                    <div class="font-bold text-xl mb-2 text-background">
+                      {item.title}
+                    </div>
+                    <p class="text-gray-700 text-base line-clamp-2">
+                      {item.description}
+                    </p>
                   </div>
-                  <p class="text-gray-700 text-base line-clamp-2">
-                    {item.description}
-                  </p>
-                </div>
-                <div class="px-6 py-2 flex flex-row gap-1">
-                  {item.pills.map((pill, index) => {
-                    return (
-                      <span
-                        key={index}
-                        class="bg-gray-200 dark:bg-gray-400 dark:text-white w-[100px] inline-flex items-center justify-center text-center rounded-full px-3 py-2 text-xs font-semibold text-gray-700 mx-auto mb-2"
-                      >
-                        {pill}
-                      </span>
-                    );
-                  })}
-                </div>
-                <div class="px-6 pt-auto mt-auto pb-4">
-                  <Link href={`/projects/${item.id}`}>
-                    <Button className="">Details</Button>
-                  </Link>
+                  <div class="px-6 py-2 flex flex-row gap-1">
+                    {item.pills.map((pill, index) => {
+                      return (
+                        <span
+                          key={index}
+                          class="bg-gray-200 dark:bg-gray-400 dark:text-white w-[100px] inline-flex items-center justify-center text-center rounded-full px-3 py-2 text-xs font-semibold text-gray-700 mx-auto mb-2"
+                        >
+                          {pill}
+                        </span>
+                      );
+                    })}
+                  </div>
+                  <div class="px-6 pt-auto mt-auto pb-4">
+                    <Link href={`/projects/${item.id}`}>
+                      <Button className="">Details</Button>
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>

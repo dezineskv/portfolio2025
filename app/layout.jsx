@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Kim Portfolio App",
+  title: "Kim Portfolio",
   description: "Next.js app",
 };
 

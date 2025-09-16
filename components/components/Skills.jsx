@@ -31,9 +31,9 @@ function Skills() {
               <CardHeader className="">
                 <CardTitle>Background</CardTitle>
                 <CardDescription>
-                  VsCode, React, JavaScript, MERN, NextJs, AWS, Heroku, GitHub,
-                  GitPages, Vercel,Tailwind, Bootstrap, SASS, Postman, API,
-                  OpenAI, Figma, Swagger, more...
+                  VsCode, React, JavaScript, MERN, NextJs, Express, AWS, Heroku,
+                  GitHub, GitPages, Vercel,Tailwind, Bootstrap, SASS, Postman,
+                  API, OpenAI, Figma, Swagger, more...
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -48,23 +48,29 @@ function Skills() {
                       <AccordionTrigger>Frontend</AccordionTrigger>
                       <AccordionContent className="flex flex-col gap-4 text-balance">
                         <p>
-                          DOM manipulation, dynamic content, REST API,
-                          authentication, react hot toast, routes, state, hooks,
-                          contextAPI, MVC, CRUD, ratings, params, modals,
-                          carousels, dark mode thems, UI elements, more...
+                          DOM manipulation, dynamic content, REST API, react hot
+                          toast, routes, state, props, hooks, contextAPI,
+                          ratings, params, modals, carousels, dark mode thems,
+                          UI elements, more...
                         </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-2">
                       <AccordionTrigger>Fullstack</AccordionTrigger>
                       <AccordionContent className="flex flex-col gap-4 text-balance">
-                        <p>List of skills</p>
+                        <p>
+                          REST API, authentication, routes, state, props, hooks,
+                          contextAPI, MVC, CRUD, shipping, more...
+                        </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-3">
                       <AccordionTrigger>Soft Skills</AccordionTrigger>
                       <AccordionContent className="flex flex-col gap-4 text-balance">
-                        <p>List of skills</p>
+                        <p>
+                          HTML, CSS, JavaScript, ReactJs, NextJs, MERN | API,
+                          UX, Branding, NodeJs, GitHub, Agile
+                        </p>
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-3">
@@ -72,7 +78,10 @@ function Skills() {
                         Other Relevant Knowledge
                       </AccordionTrigger>
                       <AccordionContent className="flex flex-col gap-4 text-balance">
-                        <p>List of skills</p>
+                        <p>
+                          professional frontend dev, graphic design knowledge,
+                          etc...
+                        </p>
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>

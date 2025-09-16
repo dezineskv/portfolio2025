@@ -39,7 +39,9 @@
       ],
       "featured": true,
       "category": "apps",
-      "pills": ["Next", "Typescript", "Tailwind"]
+      "pills": ["Next", "Typescript", "Tailwind"],
+            "link": "https://next-coffee-full.vercel.app",
+      "gitlink": ""
     },
     {
       "id": "2",
@@ -77,7 +79,9 @@
       ],
       "featured": true,
       "category": "sites",
-      "pills": ["Next", "Typescript", "Tailwind"]
+      "pills": ["Next", "Typescript", "Tailwind"],
+      "link": "https://next-coffee-full.vercel.app",
+      "gitlink": ""
     },
     {
       "id": "3",
@@ -110,7 +114,9 @@
       ],
       "featured": true,
       "category": "apps",
-      "pills": ["React", "Local Storage"]
+      "pills": ["React", "Local Storage"],
+      "link": "https://dezineskv.github.io/todos-tailwind-react/",
+      "gitlink": ""
     },
     {
       "id": "4",
@@ -140,7 +146,9 @@
       ],
       "featured": false,
       "category": "sites",
-      "pills": ["React", "Tailwind", "MongoDB"]
+      "pills": ["React", "Tailwind", "MongoDB"],
+      "link": "https://dezineskv.github.io/figma-sass-ecommerce/",
+      "gitlink": ""
     },
     {
       "id": "5",
@@ -173,7 +181,9 @@
       ],
       "featured": false,
       "category": "sites",
-      "pills": ["React", "Tailwind"]
+      "pills": ["React", "Tailwind"],
+      "link": "https://next-coffee-full.vercel.app",
+      "gitlink": ""
     },
     {
       "id": "6",
@@ -207,7 +217,9 @@
       ],
       "featured": false,
       "category": "projects",
-      "pills": ["Next", "Tailwind", "API"]
+      "pills": ["Next", "Tailwind", "API"],
+      "link": "https://next-coffee-full.vercel.app",
+      "gitlink": ""
     },
     {
       "id": "7",
@@ -236,7 +248,9 @@
       ],
       "featured": false,
       "category": "projects",
-      "pills": ["HTML", "JavaScript", "API"]
+      "pills": ["HTML", "JavaScript", "API"],
+      "link": "https://next-coffee-full.vercel.app",
+      "gitlink": ""
     },
     {
       "id": "8",
@@ -265,7 +279,9 @@
       ],
       "featured": false,
       "category": "projects",
-      "pills": ["HTML", "JavaScript", "API"]
+      "pills": ["HTML", "JavaScript", "API"],
+      "link": "https://next-coffee-full.vercel.app",
+      "gitlink": ""
     },
     {
       "id": "9",
@@ -293,7 +309,9 @@
       ],
       "featured": false,
       "category": "projects",
-      "pills": ["HTML", "JavaScript", "API"]
+      "pills": ["HTML", "JavaScript", "API"],
+      "link": "https://dezineskv.github.io/yourBank/",
+      "gitlink": ""
     },
 
     {
@@ -314,7 +332,9 @@
       "icons": ["https://i.ibb.co/C3PXt4w3/html5.png"],
       "featured": false,
       "category": "projects",
-      "pills": ["AWS"]
+      "pills": ["AWS"],
+      "link": "https://next-coffee-full.vercel.app",
+      "gitlink": ""
     },
     {
       "id": "11",
@@ -332,7 +352,9 @@
       "icons": ["https://i.ibb.co/C3PXt4w3/html5.png"],
       "featured": false,
       "category": "projects",
-      "pills": ["OpenAI", "Snowflake"]
+      "pills": ["OpenAI", "Snowflake"],
+      "link": "https://next-coffee-full.vercel.app",
+      "gitlink": ""
     },
     {
       "id": "12",
@@ -365,7 +387,9 @@
       ],
       "featured": false,
       "category": "sites",
-      "pills": ["Next", "Tailwind"]
+      "pills": ["Next", "Tailwind"],
+      "link": "https://next-coffee-full.vercel.app",
+      "gitlink": ""
     }
   ]
 }

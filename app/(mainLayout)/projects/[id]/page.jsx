@@ -19,6 +19,14 @@ import {
 import Thumbnails from "@/components/components/Thumbnails";
 import Header from "@/components/components/Header";
 import Footer from "@/components/components/Footer";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
 
 async function page({ params }) {
   const { id } = await params;
@@ -31,8 +39,20 @@ async function page({ params }) {
   return (
     <>
       <Header />
+
       <div className="bg-secondary-foreground w-full py-10">
-        <h1 className="text-background dark:text-gray-300 font-bold py-8 text-center text-5xl">
+        <Breadcrumb className="pl-9">
+          <BreadcrumbList>
+            <BreadcrumbItem>
+              <BreadcrumbLink href="/">Home</BreadcrumbLink>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <BreadcrumbLink href="/projects">Projects</BreadcrumbLink>
+            </BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
+        <h1 className="text-background py-8 text-center text-5xl font-bold dark:text-gray-300">
           Featured Projects
         </h1>
         <div className="pb-8 sm:mx-auto sm:w-full sm:px-6 md:w-5xl md:pt-6">

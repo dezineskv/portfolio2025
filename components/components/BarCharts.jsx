@@ -41,7 +41,7 @@ const chartConfig = {
     color: "var(--chart-2)",
   },
   mobile: {
-    label: "Mobile Responsive",
+    label: "Mobile",
     color: "var(--chart-1)",
   },
 };
@@ -59,25 +59,25 @@ export function BarCharts() {
 
   return (
     <Card className="py-0 sm:w-[80%] h-full md:w-full sm:px-auto max-h-[440px]">
-      <CardHeader className="flex flex-row items-stretch border-b !p-0 sm:flex-row sm:mx-auto">
-        <div className="text-left mr-auto gap-1 pt-4 w-[280px] p-3 ">
-          <CardTitle className="pt-4 pr-4">Projects</CardTitle>
+      <CardHeader className="flex flex-row w-full border-b sm:flex-row sm:mx-auto">
+        <div className="text-left gap-1 pt-4 md:max-w-[260px] p-3 ">
+          <CardTitle className="pt-4 md:pr-4">Projects</CardTitle>
           <CardDescription>Showing month by month</CardDescription>
         </div>
-        <div className="flex">
+        <div className="flex max-w-[100px]">
           {["desktop", "mobile"].map((key) => {
             const chart = key;
             return (
               <button
                 key={chart}
                 data-active={activeChart === chart}
-                className="data-[active=true]:bg-muted/50 relative z-30 flex flex-1 flex-col justify-center gap-1 border-t px-6 py-4 even:border-l sm:border-t-0 sm:border-l sm:px-8 sm:py-6"
+                className="data-[active=true]:bg-muted/50 relative z-30 flex flex-1 flex-col justify-center gap-1 border-t md:px-3 py-4 even:border-l sm:border-t-0 sm:border-l sm:py-6 mx-1"
                 onClick={() => setActiveChart(chart)}
               >
-                <span className="text-muted-foreground text-xs mx-10 pl-10">
+                <span className="text-muted-foreground text-xs md:mx-4 pl-2">
                   {chartConfig[chart].label}
                 </span>
-                <span className="text-lg leading-none font-bold sm:text-3xl pl-10">
+                <span className="text-lg leading-none font-bold sm:text-3xl pl-2">
                   {total[key].toLocaleString()}
                 </span>
               </button>

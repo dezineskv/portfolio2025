@@ -344,11 +344,13 @@
       "includes": {
         "items": [
           "API calls on static data",
-          "UI elements like charts, accordion, carousel",
+          "UI elements like charts, accordion, carousel, drawer, ticker, swiper",
           "project details page pulling data",
           "dark mode option",
           "ShadCN UI components customized",
-          "props, state, theme-provider, data table"
+          "props, state, theme-provider, routes, search params",
+          "filter projects by category, conditional rendering",
+          "designated app sidebar, data table & charts"
         ]
       },
       "image": "https://i.ibb.co/4RnC7Gwn/portfolio-1.png",

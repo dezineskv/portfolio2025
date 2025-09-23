@@ -27,6 +27,8 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
+import { Link } from "lucide-react";
+import Image from "next/image";
 
 async function page({ params }) {
   const { id } = await params;
@@ -75,7 +77,7 @@ async function page({ params }) {
                   className="w-full"
                   defaultValue="item-1"
                 >
-                  <AccordionItem value="item-1">
+                  <AccordionItem value="item2">
                     <AccordionTrigger>
                       <p className="text-xl">Tech Stack</p>
                     </AccordionTrigger>
@@ -83,7 +85,7 @@ async function page({ params }) {
                       <p className="text-xl text-[#99a1af]">{project.stack}</p>
                     </AccordionContent>
                   </AccordionItem>
-                  <AccordionItem value="item-2">
+                  <AccordionItem value="item-3">
                     <AccordionTrigger>
                       <p className="text-xl">Frontend Features</p>
                     </AccordionTrigger>
@@ -93,7 +95,31 @@ async function page({ params }) {
                       </p>
                     </AccordionContent>
                   </AccordionItem>
-                  <AccordionItem value="item-2">
+                  <AccordionItem value="item-4">
+                    <AccordionTrigger>
+                      <p className="text-xl">Links</p>
+                    </AccordionTrigger>
+                    <AccordionContent className="flex flex-col gap-4 text-balance">
+                      {project?.link && (
+                        <p className="flex text-xl text-[#99a1af]">
+                          <Link />
+                          &nbsp; {project.link}
+                        </p>
+                      )}
+                      {project?.gitlink && (
+                        <p className="flex text-xl text-[#99a1af]">
+                          <Image
+                            src="https://i.ibb.co/spy4N7Zq/github.png"
+                            alt="github"
+                            width={25}
+                            height={20}
+                          />
+                          &nbsp; {project.gitlink}
+                        </p>
+                      )}
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="item-5">
                     <AccordionTrigger>
                       <p className="text-xl">Additional notes</p>
                     </AccordionTrigger>

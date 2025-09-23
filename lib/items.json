@@ -5,7 +5,7 @@
       "title": "Coffee Shop App",
       "description": "Using NextJs, Typescript and Tailwind, re-build an existing design and customize it. Use ShadCN for UI components, also to be customized. Use responsive design, API integration, CRUD, framer-motion, dark mode option, and more.",
       "stack": "NextJs, Typescript, TailwindCSS, Node.js, MongoDB, Vercel",
-      "features": "Added admin login, user email subscription, CRUD operations, and more.",
+      "features": "Added admin login, user email subscription, CRUD operations, and more. I initially built a version with Express server as a separate backend with JSX, then went on to create a typescript backend and combine it within the same project space. -this was to get more practice with fullstack projects, while keeping the same frontend steady.",
       "notes": "server actions...",
       "includes": {
         "items": [
@@ -40,8 +40,8 @@
       "featured": true,
       "category": "apps",
       "pills": ["Next", "Typescript", "Tailwind"],
-            "link": "https://next-coffee-full.vercel.app",
-      "gitlink": ""
+      "link": "https://next-coffee-full.vercel.app",
+      "gitlink": "https://github.com/dezineskv/next-coffee-full"
     },
     {
       "id": "2",
@@ -80,7 +80,7 @@
       "featured": true,
       "category": "sites",
       "pills": ["Next", "Typescript", "Tailwind"],
-      "link": "https://next-coffee-full.vercel.app",
+      "link": "",
       "gitlink": ""
     },
     {
@@ -116,14 +116,14 @@
       "category": "apps",
       "pills": ["React", "Local Storage"],
       "link": "https://dezineskv.github.io/todos-tailwind-react/",
-      "gitlink": ""
+      "gitlink": "https://github.com/dezineskv/todos-tailwind-react"
     },
     {
       "id": "4",
       "title": "Veggie Site",
       "description": "This React app came from a Figma design of an ecommerce website. I used Tailwind to build the site. Responsive and customized Tailwind components.",
       "stack": "React, Vite, TailwindCSS, Node.js, MongoDB, Google Pages",
-      "features": "Frontend site school project - built based off of TS4U Figma design. I used Tailwind and the app uses an internal Db.",
+      "features": "Frontend site school project - built based off of TS4U Figma design. I used Tailwind and the app uses an internal Db. I also initially built a SASS version of the site. Then wanted to explore re-building it with Tailwind.",
       "notes": "TS4U Figma design provided",
       "includes": {
         "items": ["filtering and conditional rendering"]
@@ -148,7 +148,7 @@
       "category": "sites",
       "pills": ["React", "Tailwind", "MongoDB"],
       "link": "https://dezineskv.github.io/figma-sass-ecommerce/",
-      "gitlink": ""
+      "gitlink": "https://github.com/dezineskv/figma-sass-ecommerce"
     },
     {
       "id": "5",
@@ -182,8 +182,8 @@
       "featured": false,
       "category": "sites",
       "pills": ["React", "Tailwind"],
-      "link": "https://next-coffee-full.vercel.app",
-      "gitlink": ""
+      "link": "",
+      "gitlink": "https://github.com/dezineskv/fresh-bucket/tree/main/src/components"
     },
     {
       "id": "6",
@@ -218,38 +218,40 @@
       "featured": false,
       "category": "projects",
       "pills": ["Next", "Tailwind", "API"],
-      "link": "https://next-coffee-full.vercel.app",
-      "gitlink": ""
+      "link": "",
+      "gitlink": "https://github.com/dezineskv/next-UI-frontend"
     },
     {
       "id": "7",
-      "title": "Weather App",
+      "title": "Weather API",
       "description": "Frontend school project - rendering of weather per city input",
-      "stack": "HTML, CSS, JavaScript, Node.js",
-      "features": "API call to render the weather in Farenheit, by city input",
+      "stack": "HTML, JavaScript, Bootstrap",
+      "features": "REST API, event listener",
       "notes": "converted to farenheit",
       "includes": {
         "items": [
-          "frontend feature",
-          "HTML CSS & Javascript allows interactivity",
-          "API"
+          "frontend feature using Bootstrap",
+          "HTML CSS & Javascript, allows interactivity",
+          "API consumption"
         ]
       },
       "image": "https://i.ibb.co/N2df0Yqd/weatherapp.png",
       "logo": "https://i.ibb.co/C3PXt4w3/html5.png",
-      "images": ["https://i.ibb.co/N2df0Yqd/weatherapp.png"],
+      "images": [
+        "https://i.ibb.co/N2df0Yqd/weatherapp.png",
+        "https://i.ibb.co/NgWMys3D/weather-londong.jpg"
+      ],
       "icons": [
         "https://i.ibb.co/C3PXt4w3/html5.png",
-        "https://i.ibb.co/0jdrW5wx/css3.png",
+        "https://i.ibb.co/Q7RxsGs8/bootstrap4.png",
         "https://i.ibb.co/Z6TzVg3D/js.png",
-        "https://i.ibb.co/LX2q0WSB/nodejs.png",
         "https://i.ibb.co/60WNqZTq/npm.png",
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
       "featured": false,
       "category": "projects",
       "pills": ["HTML", "JavaScript", "API"],
-      "link": "https://next-coffee-full.vercel.app",
+      "link": "",
       "gitlink": ""
     },
     {
@@ -268,7 +270,11 @@
       },
       "image": "https://i.ibb.co/JjfVg7gn/music-1.jpg",
       "logo": "https://i.ibb.co/C3PXt4w3/html5.png",
-      "images": ["https://i.ibb.co/Rkz7dWQT/music-2.jpg"],
+      "images": [
+        "https://i.ibb.co/B2XbFZFL/music-1.jpg",
+        "https://i.ibb.co/cc6Mqt5G/music-2.png",
+        "https://i.ibb.co/dwyfSMX7/music-3.png"
+      ],
       "icons": [
         "https://i.ibb.co/C3PXt4w3/html5.png",
         "https://i.ibb.co/0jdrW5wx/css3.png",
@@ -280,8 +286,8 @@
       "featured": false,
       "category": "projects",
       "pills": ["HTML", "JavaScript", "API"],
-      "link": "https://next-coffee-full.vercel.app",
-      "gitlink": ""
+      "link": "https://dezineskv.github.io/music-finder/",
+      "gitlink": "https://github.com/dezineskv/music-finder"
     },
     {
       "id": "9",
@@ -311,7 +317,7 @@
       "category": "projects",
       "pills": ["HTML", "JavaScript", "API"],
       "link": "https://dezineskv.github.io/yourBank/",
-      "gitlink": ""
+      "gitlink": "https://github.com/dezineskv/yourBank"
     },
 
     {
@@ -325,15 +331,18 @@
         "items": ["API calls on static data", "OpenAI/Snowflake"]
       },
       "image": "https://i.ibb.co/v6N4Ky71/ee7859-3da1a27d28024c8eae9f676af329340d-mv2.jpg",
-      "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
+      "logo": "https://i.ibb.co/93zvkhZC/aws.png",
       "images": [
         "https://i.ibb.co/v6N4Ky71/ee7859-3da1a27d28024c8eae9f676af329340d-mv2.jpg"
       ],
-      "icons": ["https://i.ibb.co/C3PXt4w3/html5.png"],
+      "icons": [
+        "https://i.ibb.co/C3PXt4w3/html5.png",
+        "https://i.ibb.co/rK8TXvMZ/openai.png"
+      ],
       "featured": false,
       "category": "projects",
-      "pills": ["AWS"],
-      "link": "https://next-coffee-full.vercel.app",
+      "pills": ["OpenAI", "Snowflake"],
+      "link": "",
       "gitlink": ""
     },
     {
@@ -347,13 +356,13 @@
         "items": ["AWS hosting"]
       },
       "image": "https://i.ibb.co/DPLRmY4j/awspage-2.jpg",
-      "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
+      "logo": "https://i.ibb.co/mrvgbnn9/snowflake.png",
       "images": ["https://i.ibb.co/DPLRmY4j/awspage-2.jpg"],
-      "icons": ["https://i.ibb.co/C3PXt4w3/html5.png"],
+      "icons": ["https://i.ibb.co/93zvkhZC/aws.png"],
       "featured": false,
       "category": "projects",
-      "pills": ["OpenAI", "Snowflake"],
-      "link": "https://next-coffee-full.vercel.app",
+      "pills": ["AWS"],
+      "link": "",
       "gitlink": ""
     },
     {
@@ -388,8 +397,8 @@
       "featured": false,
       "category": "sites",
       "pills": ["Next", "Tailwind"],
-      "link": "https://next-coffee-full.vercel.app",
-      "gitlink": ""
+      "link": "https://portfolio2025-sand-ten.vercel.app/",
+      "gitlink": "https://github.com/dezineskv/portfolio2025"
     }
   ]
 }

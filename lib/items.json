@@ -156,7 +156,7 @@
       "description": "Tailwind & DaisyUI. Also API data. Light mode & dark mode rendering, responsive, more...",
       "stack": "React, Vite, TailwindCSS, Node.js",
       "features": "school project - Basic frontend and user sign-up plus sign-in capability. Rendering of a list of products.",
-      "notes": "here...",
+      "notes": "...",
       "includes": {
         "items": [
           "user sign-up and sign-in capability.",
@@ -191,7 +191,7 @@
       "description": "NextJs app, Tailwind & DaisyUI. Also API data. Original design/layout. Light mode & dark mode functionality, more...",
       "stack": "NextJs, TailwindCSS, Node.js",
       "features": "Frontend school project - display of UI components including DaisyUI elements. Rendering of a list of products.",
-      "notes": "here...",
+      "notes": "...",
       "includes": {
         "items": [
           "frontend UI features & components",
@@ -223,11 +223,11 @@
     },
     {
       "id": "7",
-      "title": "Weather API",
+      "title": "Weather App",
       "description": "Frontend school project - rendering of weather per city input",
-      "stack": "HTML, JavaScript, Bootstrap",
-      "features": "REST API, event listener",
-      "notes": "converted to farenheit",
+      "stack": "HTML, JavaScript, Bootstrap, React, Vite, Node.js, Express",
+      "features": "REST API, event listener for vanilla javascript version with event listener, React version with state and props, Express server",
+      "notes": "converted Kelvin to Celsius then to farenheit; used Bootstrap for styling; created both a vanilla JS version and a React version; Express server to handle the API call; npm create vite@latest weather-react; npm install dependencies (dot env, cors, express); npm run dev & npm run start; try/catch for error handling; fetch with async/await; gitignore node_modules, .env; npm run build; update Vite config; Copilot for minor troubleshooting; ship to GitHub Pages",
       "includes": {
         "items": [
           "frontend feature using Bootstrap",
@@ -239,28 +239,34 @@
       "logo": "https://i.ibb.co/C3PXt4w3/html5.png",
       "images": [
         "https://i.ibb.co/N2df0Yqd/weatherapp.png",
-        "https://i.ibb.co/NgWMys3D/weather-londong.jpg"
+        "https://i.ibb.co/NgWMys3D/weather-londong.jpg",
+        "https://i.ibb.co/Xxnsq1c3/weather-x2.jpg",
+        "https://i.ibb.co/TqtjkZbT/weather-express.jpg",
+        "https://i.ibb.co/GfTL69nJ/weather-server.jpg"
       ],
       "icons": [
         "https://i.ibb.co/C3PXt4w3/html5.png",
         "https://i.ibb.co/Q7RxsGs8/bootstrap4.png",
         "https://i.ibb.co/Z6TzVg3D/js.png",
+        "https://i.ibb.co/LX2q0WSB/nodejs.png",
+        "https://i.ibb.co/x8qGcWCT/expressjs.png",
+        "https://i.ibb.co/g1dmGzC/vitejs.png",
         "https://i.ibb.co/60WNqZTq/npm.png",
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
       "featured": false,
       "category": "projects",
       "pills": ["HTML", "JavaScript", "API"],
-      "link": "",
-      "gitlink": ""
+      "link": "https://dezineskv.github.io/weather-react/",
+      "gitlink": "https://github.com/dezineskv/weather-react"
     },
     {
       "id": "8",
       "title": "Music App",
       "description": "Frontend school project - rendering of music per 2 input options",
-      "stack": "HTML, CSS, JavaScript, Node.js",
+      "stack": "HTML, CSS, JavaScript",
       "features": "API call to render music lyrics & info and click to hear the song",
-      "notes": "Background image was provided",
+      "notes": "Background image was provided; no API key needed; used two APIs - one for lyrics and one for song info; use Bootstrap for styling",
       "includes": {
         "items": [
           "frontend feature",
@@ -279,8 +285,6 @@
         "https://i.ibb.co/C3PXt4w3/html5.png",
         "https://i.ibb.co/0jdrW5wx/css3.png",
         "https://i.ibb.co/Z6TzVg3D/js.png",
-        "https://i.ibb.co/LX2q0WSB/nodejs.png",
-        "https://i.ibb.co/60WNqZTq/npm.png",
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
       "featured": false,
@@ -323,20 +327,22 @@
     {
       "id": "10",
       "title": "OpenAI/Snowflake",
-      "description": "OpenAI & Snowflake playground project",
-      "stack": "OpenAI, Snowflake",
-      "features": "Followed along with a demo project. User selects from a dropdown then the dynamic result is displayed.",
-      "notes": "here...",
+      "description": "OpenAI & Snowflake playground project, Streamlit Apps",
+      "stack": "OpenAI, Snowflake, Python",
+      "features": "Followed along with a lab. Demonstrating knowledge of Python and integrations especially with OpenAI. User selects from a dropdown then the dynamic result is displayed.",
+      "notes": "...",
       "includes": {
         "items": ["API calls on static data", "OpenAI/Snowflake"]
       },
       "image": "https://i.ibb.co/v6N4Ky71/ee7859-3da1a27d28024c8eae9f676af329340d-mv2.jpg",
-      "logo": "https://i.ibb.co/93zvkhZC/aws.png",
+      "logo": "https://i.ibb.co/mrvgbnn9/snowflake.png",
       "images": [
-        "https://i.ibb.co/v6N4Ky71/ee7859-3da1a27d28024c8eae9f676af329340d-mv2.jpg"
+        "https://i.ibb.co/v6N4Ky71/ee7859-3da1a27d28024c8eae9f676af329340d-mv2.jpg",
+        "https://i.ibb.co/LDDD546k/snowflake-2.jpg",
+        "https://i.ibb.co/rGSHQC2W/snowflake-streamlit.jpg"
       ],
       "icons": [
-        "https://i.ibb.co/C3PXt4w3/html5.png",
+        "https://i.ibb.co/M5xwGGQd/python.png",
         "https://i.ibb.co/rK8TXvMZ/openai.png"
       ],
       "featured": false,
@@ -351,13 +357,16 @@
       "description": "Followed a demo to build & host an AWS micro-site for a portfolio/resume",
       "stack": "AWS, HTML",
       "features": "accordion dropdowns for resume sections and a picture",
-      "notes": "here...",
+      "notes": "...",
       "includes": {
         "items": ["AWS hosting"]
       },
       "image": "https://i.ibb.co/DPLRmY4j/awspage-2.jpg",
-      "logo": "https://i.ibb.co/mrvgbnn9/snowflake.png",
-      "images": ["https://i.ibb.co/DPLRmY4j/awspage-2.jpg"],
+      "logo": "https://i.ibb.co/93zvkhZC/aws.png",
+      "images": [
+        "https://i.ibb.co/DPLRmY4j/awspage-2.jpg",
+        "https://i.ibb.co/TDcRVWkB/aws-mobile.jpg"
+      ],
       "icons": ["https://i.ibb.co/93zvkhZC/aws.png"],
       "featured": false,
       "category": "projects",
@@ -371,7 +380,7 @@
       "description": "ShadCN, dark mode option, and more.",
       "stack": "NextJs, TailwindCSS, Node.js, MongoDB, Vercel",
       "features": "NextJs app, API calls, Tailwind, shadcn UI elements, State, dark/light themes, Vercel",
-      "notes": "here...",
+      "notes": "...",
       "includes": {
         "items": [
           "API calls on static data",

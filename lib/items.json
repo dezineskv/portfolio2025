@@ -227,7 +227,7 @@
       "description": "Frontend school project - rendering of weather per city input",
       "stack": "HTML, JavaScript, Bootstrap, React, Vite, Node.js, Express",
       "features": "REST API, event listener for vanilla javascript version with event listener, React version with state and props, Express server",
-      "notes": "converted Kelvin to Celsius then to farenheit; used Bootstrap for styling; created both a vanilla JS version and a React version; Express server to handle the API call; npm create vite@latest weather-react; npm install dependencies (dot env, cors, express); npm run dev & npm run start; try/catch for error handling; fetch with async/await; gitignore node_modules, .env; npm run build; update Vite config; Copilot for minor troubleshooting; ship to GitHub Pages",
+      "notes": "converted Kelvin to Celsius then to farenheit; used Bootstrap for styling; created both a vanilla JS version and a React version; Express server to handle the API call; npm create vite@latest weather-react; npm install dependencies (dot env, cors, express); npm run dev & npm run start; try/catch for error handling; fetch with async/await; gitignore node_modules, .env; npm run build; update Vite config & package.json; Copilot for minor troubleshooting; shipped to vercel with serverless function",
       "includes": {
         "items": [
           "frontend feature using Bootstrap",
@@ -257,7 +257,7 @@
       "featured": false,
       "category": "projects",
       "pills": ["HTML", "JavaScript", "API"],
-      "link": "https://dezineskv.github.io/weather-react/",
+      "link": "https://weather-react-two-delta.vercel.app/",
       "gitlink": "https://github.com/dezineskv/weather-react"
     },
     {

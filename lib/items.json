@@ -35,7 +35,8 @@
         "https://i.ibb.co/mV5Tp1T8/mongodb.png",
         "https://i.ibb.co/9kbKBRCs/postman.png",
         "https://i.ibb.co/60WNqZTq/npm.png",
-        "https://i.ibb.co/spy4N7Zq/github.png"
+        "https://i.ibb.co/spy4N7Zq/github.png",
+        "https://i.ibb.co/jh0y3yW/vercel.png"
       ],
       "featured": true,
       "category": "apps",
@@ -225,7 +226,7 @@
       "id": "7",
       "title": "Weather App",
       "description": "Frontend school project - rendering of weather per city input",
-      "stack": "HTML, JavaScript, Bootstrap, React, Vite, Node.js, Express",
+      "stack": "HTML, JavaScript, Bootstrap, React, Vite, Node.js, Express, Vercel",
       "features": "REST API, event listener for vanilla javascript version with event listener, React version with state and props, Express server",
       "notes": "converted Kelvin to Celsius then to farenheit; used Bootstrap for styling; created both a vanilla JS version and a React version; Express server to handle the API call; npm create vite@latest weather-react; npm install dependencies (dot env, cors, express); npm run dev & npm run start; try/catch for error handling; fetch with async/await; gitignore node_modules, .env; npm run build; update Vite config & package.json; Copilot for minor troubleshooting; shipped to vercel with serverless function",
       "includes": {
@@ -252,7 +253,8 @@
         "https://i.ibb.co/x8qGcWCT/expressjs.png",
         "https://i.ibb.co/g1dmGzC/vitejs.png",
         "https://i.ibb.co/60WNqZTq/npm.png",
-        "https://i.ibb.co/spy4N7Zq/github.png"
+        "https://i.ibb.co/spy4N7Zq/github.png",
+        "https://i.ibb.co/jh0y3yW/vercel.png"
       ],
       "featured": false,
       "category": "projects",
@@ -401,7 +403,8 @@
         "https://i.ibb.co/SXY0YdBr/tailwindcss.png",
         "https://i.ibb.co/LX2q0WSB/nodejs.png",
         "https://i.ibb.co/60WNqZTq/npm.png",
-        "https://i.ibb.co/spy4N7Zq/github.png"
+        "https://i.ibb.co/spy4N7Zq/github.png",
+        "https://i.ibb.co/jh0y3yW/vercel.png"
       ],
       "featured": false,
       "category": "sites",

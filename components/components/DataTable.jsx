@@ -53,7 +53,7 @@ const data = [
     amount: 1,
     title: "Todos Tracker App",
     stack: "React, Vite, TailwindCSS, Node.js, LocalStorage, Google Pages",
-    image: "https://i.ibb.co/20ddL0PW/tracker-add.jpg",
+    image: "https://i.ibb.co/RTF1YTfc/addTask.jpg",
   },
   {
     id: "4",
@@ -81,7 +81,7 @@ const data = [
     amount: 1,
     title: "Weather App",
     stack: "HTML, CSS, JavaScript, API",
-    image: "https://i.ibb.co/N2df0Yqd/weatherapp.png",
+    image: "https://i.ibb.co/mdw6FCy/weatherappv2.png",
   },
   {
     id: "8",

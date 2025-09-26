@@ -88,36 +88,36 @@
       "id": "3",
       "title": "Todos Tracker App",
       "description": "App that includes CRUD operations",
-      "stack": "React, Vite, TailwindCSS, Node.js, LocalStorage, Google Pages",
+      "stack": "React, Vite, TailwindCSS, Node.js, LocalStorage, Vercel",
       "features": "school project - basic app that allows users to input their tasks that include a due date. The tasks can be edited or deleted. They can be sorted by today's tasks or this week's or by pending status.",
       "notes": "Got help from mentors to make it fullstack",
       "includes": {
         "items": [
           "modal for editing the specific task",
           "conditional rendering of tasks per status",
-          "state, props, hooks"
+          "state, props, hooks, context, local storage",
+          "react hot toast for notifications"
         ]
       },
-      "image": "https://i.ibb.co/20ddL0PW/tracker-add.jpg",
+      "image": "https://i.ibb.co/RTF1YTfc/addTask.jpg",
       "logo": "https://i.ibb.co/tMTMjJ0P/react.png",
       "images": [
-        "https://i.ibb.co/s9QPwD3X/tracker-edit.jpg",
-        "https://i.ibb.co/20ddL0PW/tracker-add.jpg"
+        "https://i.ibb.co/Mxtmx974/allTasks.jpg",
+        "https://i.ibb.co/RTF1YTfc/addTask.jpg",
+        "https://i.ibb.co/zHLbhTKc/editTask.jpg"
       ],
       "icons": [
-        "https://i.ibb.co/tMTMjJ0P/react.png",
-        "https://i.ibb.co/HpNhRHxH/vitejs.png",
+        "https://i.ibb.co/HDPXjcCM/nextjs2.png",
         "https://i.ibb.co/SXY0YdBr/tailwindcss.png",
         "https://i.ibb.co/LX2q0WSB/nodejs.png",
-        "https://i.ibb.co/x8qGcWCT/expressjs.png",
         "https://i.ibb.co/60WNqZTq/npm.png",
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
       "featured": true,
       "category": "apps",
-      "pills": ["React", "Local Storage"],
-      "link": "https://dezineskv.github.io/todos-tailwind-react/",
-      "gitlink": "https://github.com/dezineskv/todos-tailwind-react"
+      "pills": ["NextJs", "Local Storage"],
+      "link": "https://tasks-tracker-liart.vercel.app/",
+      "gitlink": "https://github.com/dezineskv/tasks-tracker"
     },
     {
       "id": "4",
@@ -127,7 +127,7 @@
       "features": "Frontend site school project - built based off of TS4U Figma design. I used Tailwind and the app uses an internal Db. I also initially built a SASS version of the site. Then wanted to explore re-building it with Tailwind.",
       "notes": "TS4U Figma design provided",
       "includes": {
-        "items": ["filtering and conditional rendering"]
+        "items": ["filtering and conditional rendering", "map over data"]
       },
       "image": "https://i.ibb.co/hFDmw2n5/veggie-detailpage.png",
       "logo": "https://i.ibb.co/tMTMjJ0P/react.png",
@@ -236,14 +236,14 @@
           "API consumption"
         ]
       },
-      "image": "https://i.ibb.co/N2df0Yqd/weatherapp.png",
+      "image": "https://i.ibb.co/mdw6FCy/weatherappv2.png",
       "logo": "https://i.ibb.co/C3PXt4w3/html5.png",
       "images": [
-        "https://i.ibb.co/N2df0Yqd/weatherapp.png",
-        "https://i.ibb.co/NgWMys3D/weather-londong.jpg",
         "https://i.ibb.co/Xxnsq1c3/weather-x2.jpg",
         "https://i.ibb.co/TqtjkZbT/weather-express.jpg",
-        "https://i.ibb.co/GfTL69nJ/weather-server.jpg"
+        "https://i.ibb.co/GfTL69nJ/weather-server.jpg",
+        "https://i.ibb.co/mdw6FCy/weatherappv2.png",
+        "https://i.ibb.co/FqNtz2fL/event-Listener.jpg"
       ],
       "icons": [
         "https://i.ibb.co/C3PXt4w3/html5.png",

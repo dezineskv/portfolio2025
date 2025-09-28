@@ -49,7 +49,7 @@ function AllProjects() {
 
   return (
     <div className="pb-8 bg-white dark:bg-gray-500">
-      <h1 className="mb-4 text-5xl font-bold text-center text-background pt-8 pb-8">
+      <h1 className="mb-1 text-5xl font-bold text-center text-background pt-8 pb-4">
         Projects
       </h1>
       {/* buttons to click by category */}
@@ -80,7 +80,7 @@ function AllProjects() {
             Featured
           </button>
           <button
-            className={`${isActive("projects")} text-sm py-2 px-4 w-[180px] rounded-lg hover:bg-black`}
+            className={`${isActive("projects")} text-sm py-2 px-4 w-[164px] rounded-lg hover:bg-black`}
             onClick={() => setFilter("projects")}
           >
             Projects/Features
@@ -99,7 +99,8 @@ function AllProjects() {
                     alt="images"
                     width={248}
                     height={180}
-                    className="w-[248px] min-h-[180px] max-h-[180px] h-[180px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
+                    className="aspect-ratio-16/9
+                    w-[248px] min-h-[180px] max-h-[180px] h-[180px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
                   />
                   <div class="px-6 pt-4 pb-4">
                     <div class="font-bold text-xl mb-2 text-background">

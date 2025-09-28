@@ -103,7 +103,7 @@ async function page({ params }) {
                       {project?.link && (
                         <p className="flex text-xl text-[#99a1af]">
                           <Link />
-                          &nbsp; {project.link}
+                          &nbsp; <a href={project.link}>{project.link}</a>
                         </p>
                       )}
                       {project?.gitlink && (
@@ -114,7 +114,7 @@ async function page({ params }) {
                             width={25}
                             height={20}
                           />
-                          &nbsp; {project.gitlink}
+                          &nbsp; <a href={project.gitlink}>{project.gitlink}</a>
                         </p>
                       )}
                     </AccordionContent>

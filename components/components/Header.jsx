@@ -41,7 +41,7 @@ const projectsItems = [
     description: "featured projects",
   },
   {
-    title: "Projects",
+    title: "All",
     href: "/projects",
     description: "all projects",
   },
@@ -142,7 +142,7 @@ export default function Header() {
                     <Link href="/projects">Projects</Link>
                   </li>
                   <li className="text-black px-2">
-                    <Link href="/filter">Projects Overview</Link>
+                    <Link href="/filter">Overview</Link>
                   </li>
                 </ul>
               )}

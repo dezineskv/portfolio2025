@@ -19,7 +19,7 @@
           "props, state, hooks"
         ]
       },
-      "image": "https://i.ibb.co/rKgZnWb2/coffeeshop-homepage.png",
+      "image": "https://i.ibb.co/HfKJjxB3/coffee-new.jpg",
       "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
       "images": [
         "https://i.ibb.co/rKgZnWb2/coffeeshop-homepage.png",
@@ -40,7 +40,7 @@
       ],
       "featured": true,
       "category": "apps",
-      "pills": ["Next", "Typescript", "Tailwind"],
+      "pills": ["NextJs", "Typescript", "Tailwind"],
       "link": "https://next-coffee-full.vercel.app",
       "gitlink": "https://github.com/dezineskv/next-coffee-full"
     },
@@ -80,7 +80,7 @@
       ],
       "featured": true,
       "category": "sites",
-      "pills": ["Next", "Typescript", "Tailwind"],
+      "pills": ["NextJs", "Typescript", "Tailwind"],
       "link": "",
       "gitlink": ""
     },
@@ -218,7 +218,7 @@
       ],
       "featured": false,
       "category": "projects",
-      "pills": ["Next", "Tailwind", "API"],
+      "pills": ["NextJs", "Tailwind", "API"],
       "link": "",
       "gitlink": "https://github.com/dezineskv/next-UI-frontend"
     },
@@ -258,7 +258,7 @@
       ],
       "featured": false,
       "category": "projects",
-      "pills": ["HTML", "JavaScript", "API"],
+      "pills": ["React", "Express", "Javascript"],
       "link": "https://weather-react-two-delta.vercel.app/",
       "gitlink": "https://github.com/dezineskv/weather-react"
     },
@@ -308,9 +308,9 @@
           "HTML, CSS & Javascript allows interactivity"
         ]
       },
-      "image": "https://i.ibb.co/21tkG84P/bank-full.jpg",
+      "image": "https://i.ibb.co/3999n17D/bank-new2.jpg",
       "logo": "https://i.ibb.co/C3PXt4w3/html5.png",
-      "images": ["https://i.ibb.co/21tkG84P/bank-full.jpg"],
+      "images": ["https://i.ibb.co/3999n17D/bank-new2.jpg"],
       "icons": [
         "https://i.ibb.co/C3PXt4w3/html5.png",
         "https://i.ibb.co/0jdrW5wx/css3.png",
@@ -408,7 +408,7 @@
       ],
       "featured": false,
       "category": "sites",
-      "pills": ["Next", "Tailwind"],
+      "pills": ["NextJs", "Tailwind"],
       "link": "https://portfolio2025-sand-ten.vercel.app/",
       "gitlink": "https://github.com/dezineskv/portfolio2025"
     }

@@ -148,8 +148,8 @@
       "featured": false,
       "category": "sites",
       "pills": ["React", "Tailwind", "MongoDB"],
-      "link": "https://dezineskv.github.io/figma-sass-ecommerce/",
-      "gitlink": "https://github.com/dezineskv/figma-sass-ecommerce"
+      "link": "https://fresh-bucket-wine.vercel.app/",
+      "gitlink": "https://github.com/dezineskv/fresh-bucket/tree/main/src/components"
     },
     {
       "id": "5",
@@ -183,8 +183,8 @@
       "featured": false,
       "category": "sites",
       "pills": ["React", "Tailwind"],
-      "link": "",
-      "gitlink": "https://github.com/dezineskv/fresh-bucket/tree/main/src/components"
+      "link": "https://dezineskv.github.io/figma-sass-ecommerce/",
+      "gitlink": "https://github.com/dezineskv/figma-sass-ecommerce"
     },
     {
       "id": "6",

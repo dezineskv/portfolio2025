@@ -46,43 +46,33 @@
     },
     {
       "id": "2",
-      "title": "Ecomm Site",
-      "description": "school project - Axios, DaisyUI, dark mode option, and more.",
-      "stack": "NextJs, Typescript, TailwindCSS, Node.js, MongoDB, Vercel",
-      "features": "NextJs app, Typescript, API, Tailwind, shadcn UI elements, State, dark/light themes, Vercel",
-      "notes": "NextJs plus Typescript, MongoDB",
+      "title": "Pet Site",
+      "description": "DaisyUI, dark mode option, and more.",
+      "stack": "NextJs, TailwindCSS, Node.js, Vercel",
+      "features": "NextJs, Tailwind, UI elements, State, dark/light themes, Vercel",
+      "notes": "NextJs",
       "includes": {
         "items": [
-          "API consumption with Axios",
-          "UI elements like charts, accordion, carousel",
-          "product details page pulling data from mongoDB",
-          "dark mode option",
-          "ShadCN UI components customized"
+          "UI elements like accordion, carousel",
+          "product details page pulling data",
+          "dark mode option"
         ]
       },
-      "image": "https://i.ibb.co/bjRrLZn2/ecomm-prods.jpg",
+      "image": "https://i.ibb.co/CKY4WKdb/pet-light-3col.jpg",
       "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
-      "images": [
-        "https://i.ibb.co/jpCDLTg/next-app-productpage.jpg",
-        "https://i.ibb.co/Dg77mvXW/ecomm-dash.jpg",
-        "https://i.ibb.co/rR2FrZ0B/ecomm-mobile.jpg",
-        "https://i.ibb.co/N60H42Hn/Screenshot-2025-06-26-174312.png"
-      ],
+      "images": ["https://i.ibb.co/Q7x55Mgq/pet-dark-footer.jpg","https://i.ibb.co/ZR45wjmC/pet-light-1col.jpg", "https://i.ibb.co/RGFwyXnF/pet-dark-prods.jpg", "https://i.ibb.co/TM2H6Lzm/pet-light-2col.jpg", "https://i.ibb.co/KTsX4by/pet-light-mobile-hero.jpg", "https://i.ibb.co/svK90SBg/pet-light2.jpg", "https://i.ibb.co/GfLwrJCq/pet-prods-light.jpg", "https://i.ibb.co/Ngd9kwgm/pet-light-detail.jpg", "https://i.ibb.co/bMCj42f4/pet-dark-2.jpg"],
       "icons": [
         "https://i.ibb.co/HDPXjcCM/nextjs2.png",
-        "https://i.ibb.co/3yGM0NtF/typescript.png",
         "https://i.ibb.co/SXY0YdBr/tailwindcss.png",
         "https://i.ibb.co/LX2q0WSB/nodejs.png",
-        "https://i.ibb.co/mV5Tp1T8/mongodb.png",
-        "https://i.ibb.co/9kbKBRCs/postman.png",
         "https://i.ibb.co/60WNqZTq/npm.png",
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
-      "featured": true,
+      "featured": false,
       "category": "sites",
-      "pills": ["NextJs", "Typescript", "Tailwind"],
-      "link": "",
-      "gitlink": ""
+      "pills": ["NextJs", "Tailwind"],
+      "link": "https://pet-site-theta.vercel.app/",
+      "gitlink": "https://github.com/dezineskv/pet-site"
     },
     {
       "id": "3",
@@ -123,11 +113,15 @@
       "id": "4",
       "title": "Veggie Site",
       "description": "This React app came from a Figma design of an ecommerce website. I used Tailwind to build the site. Responsive and customized Tailwind components.",
-      "stack": "React, Vite, TailwindCSS, Node.js, MongoDB, Google Pages",
+      "stack": "React, Vite, TailwindCSS, Node.js, Vercel",
       "features": "Frontend site school project - built based off of TS4U Figma design. I used Tailwind and the app uses an internal Db. I also initially built a SASS version of the site. Then wanted to explore re-building it with Tailwind.",
       "notes": "TS4U Figma design provided",
       "includes": {
-        "items": ["filtering and conditional rendering", "map over data"]
+        "items": [
+          "filtering and conditional rendering",
+          "map over data",
+          "Poppins font"
+        ]
       },
       "image": "https://i.ibb.co/hFDmw2n5/veggie-detailpage.png",
       "logo": "https://i.ibb.co/tMTMjJ0P/react.png",
@@ -147,7 +141,7 @@
       ],
       "featured": false,
       "category": "sites",
-      "pills": ["React", "Tailwind", "MongoDB"],
+      "pills": ["React", "Tailwind"],
       "link": "https://fresh-bucket-wine.vercel.app/",
       "gitlink": "https://github.com/dezineskv/fresh-bucket/tree/main/src/components"
     },
@@ -183,7 +177,7 @@
       "featured": false,
       "category": "sites",
       "pills": ["React", "Tailwind"],
-      "link": "https://dezineskv.github.io/figma-sass-ecommerce/",
+      "link": "",
       "gitlink": "https://github.com/dezineskv/figma-sass-ecommerce"
     },
     {
@@ -206,7 +200,10 @@
         "https://i.ibb.co/V03wLMp1/ui-services.png",
         "https://i.ibb.co/qYHNyTNX/ui-avatarpage.png",
         "https://i.ibb.co/y2M2hBk/ui-homepage.png",
-        "https://i.ibb.co/SwP3yD88/ui-mobilepage.png"
+        "https://i.ibb.co/SwP3yD88/ui-mobilepage.png",
+        "https://i.ibb.co/jpCDLTg/next-app-productpage.jpg",
+        "https://i.ibb.co/rR2FrZ0B/ecomm-mobile.jpg",
+        "https://i.ibb.co/bjRrLZn2/ecomm-prods.jpg"
       ],
       "icons": [
         "https://i.ibb.co/tMTMjJ0P/react.png",
@@ -351,7 +348,7 @@
       "category": "projects",
       "pills": ["OpenAI", "Snowflake"],
       "link": "",
-      "gitlink": ""
+      "gitlink": "https://github.com/dezineskv/shareUI/tree/main/ai01/openai-quickstart-node"
     },
     {
       "id": "11",
@@ -374,7 +371,7 @@
       "category": "projects",
       "pills": ["AWS"],
       "link": "",
-      "gitlink": ""
+      "gitlink": "https://github.com/dezineskv/shareUI/tree/main/aws-resume"
     },
     {
       "id": "12",

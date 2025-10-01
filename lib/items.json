@@ -49,7 +49,7 @@
       "title": "Pet Site",
       "description": "DaisyUI, dark mode option, and more.",
       "stack": "NextJs, TailwindCSS, Node.js, Vercel",
-      "features": "NextJs, Tailwind, UI elements, State, dark/light themes, conditional rendering, Vercel",
+      "features": "NextJs, Tailwind, UI elements, State, app router, params prop, dark/light themes, conditional rendering, Vercel",
       "notes": "NextJs",
       "includes": {
         "items": [
@@ -193,8 +193,8 @@
     {
       "id": "6",
       "title": "UI features",
-      "description": "NextJs app, Tailwind & DaisyUI. Also API data. Original design/layout. Light mode & dark mode functionality, more...",
-      "stack": "NextJs, TailwindCSS, Node.js",
+      "description": "NextJs app, Tailwind & DaisyUI. Also API data. Light mode & dark mode functionality per local storage, more...",
+      "stack": "NextJs, TailwindCSS, Axios, Node.js",
       "features": "Frontend school project - display of UI components including DaisyUI elements. Rendering of a list of products.",
       "notes": "...",
       "includes": {
@@ -203,14 +203,16 @@
           "also a rendering of a list of products."
         ]
       },
-      "image": "https://i.ibb.co/y2M2hBk/ui-homepage.png",
+      "image": "https://i.ibb.co/hFN0M6kD/ui-dt-dark-top.jpg",
       "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
       "images": [
-        "https://i.ibb.co/FLgLdkTB/ui-apipage.png",
+        "https://i.ibb.co/xKSQVJsZ/ui-mobile-light-products.jpg",
         "https://i.ibb.co/V03wLMp1/ui-services.png",
         "https://i.ibb.co/qYHNyTNX/ui-avatarpage.png",
-        "https://i.ibb.co/y2M2hBk/ui-homepage.png",
-        "https://i.ibb.co/SwP3yD88/ui-mobilepage.png",
+        "https://i.ibb.co/GwYMcBM/ui-light-dt-todos.jpg",
+        "https://i.ibb.co/99rgJLzX/ui-dark-services-dt.jpg",
+        "https://i.ibb.co/BVGJRqJw/ui-mobile-dark-top.jpg",
+        "https://i.ibb.co/PzGYsS4m/ui-dark-highlights-mobile.jpg",
         "https://i.ibb.co/jpCDLTg/next-app-productpage.jpg",
         "https://i.ibb.co/rR2FrZ0B/ecomm-mobile.jpg",
         "https://i.ibb.co/bjRrLZn2/ecomm-prods.jpg"
@@ -226,7 +228,7 @@
       "featured": false,
       "category": "projects",
       "pills": ["NextJs", "Tailwind", "API"],
-      "link": "",
+      "link": "https://next-ui-frontend-lra6.vercel.app/",
       "gitlink": "https://github.com/dezineskv/next-UI-frontend"
     },
     {

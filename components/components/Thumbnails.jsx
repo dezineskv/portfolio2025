@@ -42,7 +42,7 @@ export default function ImageGallery({ image, images, includes, title }) {
         </div>
       </div>
       {/* Thumbnails */}
-      <div style={{ display: "flex", gap: "10px" }} className="flex flex-wrap flex-row justify-between sm:w-full">
+      <div style={{ display: "flex", gap: "10px" }} className="flex flex-wrap flex-row justify-start sm:w-full">
         {thumbnails.map((thumb, index) => (
           <div key={index} onClick={() => setLargeImageSrc(thumb)}>
             <Image

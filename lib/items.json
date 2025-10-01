@@ -49,8 +49,8 @@
       "title": "Pet Site",
       "description": "DaisyUI, dark mode option, and more.",
       "stack": "NextJs, TailwindCSS, Node.js, Vercel",
-      "features": "NextJs, Tailwind, UI elements, State, app router, params prop, dark/light themes, conditional rendering, Vercel",
-      "notes": "NextJs",
+      "features": "NextJs, Tailwind, UI elements, state, app router, params prop, dark/light themes, conditional rendering, Vercel",
+      "notes": "NextJs, used AI to create a logo image.",
       "includes": {
         "items": [
           "UI elements like accordion, carousel",
@@ -88,9 +88,9 @@
       "id": "3",
       "title": "Todos Tracker App",
       "description": "App that includes CRUD operations, school project",
-      "stack": "React, Vite, TailwindCSS, Node.js, LocalStorage, Vercel",
+      "stack": "React, Vite, TailwindCSS, Node.js, LocalStorage, NextJs, Vercel",
       "features": "school project - basic app that allows users to input their tasks that include a due date. The tasks can be edited or deleted. They can be sorted by today's tasks or this week's or by pending status.",
-      "notes": "Got help from mentors to make it fullstack",
+      "notes": "Got initial help from mentors to make it fullstack, then rebuilt it in NextJs plus reworked the useContext.",
       "includes": {
         "items": [
           "modal for editing the specific task",
@@ -161,7 +161,7 @@
       "description": "Tailwind & DaisyUI. Also API data. Light mode & dark mode rendering, responsive, more...",
       "stack": "React, Vite, TailwindCSS, Node.js",
       "features": "school project - Basic frontend and user sign-up plus sign-in capability. Rendering of a list of products.",
-      "notes": "...",
+      "notes": "Authentication, bycrypt, JWT, MongoDB, Express server, Postman for testing",
       "includes": {
         "items": [
           "user sign-up and sign-in capability.",
@@ -193,10 +193,10 @@
     {
       "id": "6",
       "title": "UI features",
-      "description": "NextJs app, Tailwind & DaisyUI. Also API data. Light mode & dark mode functionality per local storage, more...",
+      "description": "NextJs app, Tailwind & DaisyUI. Also API data. Light mode & dark mode functionality, local storage theme, responsive, more...",
       "stack": "NextJs, TailwindCSS, Axios, Node.js",
       "features": "Frontend school project - display of UI components including DaisyUI elements. Rendering of a list of products.",
-      "notes": "...",
+      "notes": "Used UI components from DaisyUI and TailwindCSS to create a responsive layout and customized the design.",
       "includes": {
         "items": [
           "frontend UI features & components",
@@ -277,7 +277,7 @@
       "description": "Frontend school project - rendering of music per 2 input options",
       "stack": "HTML, CSS, JavaScript",
       "features": "API call to render music lyrics & info and click to hear the song",
-      "notes": "Background image was provided; no API key needed; used two APIs - one for lyrics and one for song info; use Bootstrap for styling",
+      "notes": "Background image was provided; no API key needed; used two APIs - one for lyrics and one for song info; used Bootstrap for styling",
       "includes": {
         "items": [
           "frontend feature",
@@ -308,7 +308,7 @@
       "id": "9",
       "title": "Bank page",
       "description": "Frontend school project - page that lets the user interact with deposit, balance and withrawal amounts",
-      "stack": "HTML, CSS, JavaScript, Node.js",
+      "stack": "HTML, CSS, JavaScript",
       "features": "Frontend page that lets the user interact with deposit, balance and withrawal amounts",
       "notes": "Background image was provided",
       "includes": {

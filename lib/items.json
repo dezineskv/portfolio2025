@@ -49,11 +49,12 @@
       "title": "Pet Site",
       "description": "DaisyUI, dark mode option, and more.",
       "stack": "NextJs, TailwindCSS, Node.js, Vercel",
-      "features": "NextJs, Tailwind, UI elements, State, dark/light themes, Vercel",
+      "features": "NextJs, Tailwind, UI elements, State, dark/light themes, conditional rendering, Vercel",
       "notes": "NextJs",
       "includes": {
         "items": [
           "UI elements like accordion, carousel",
+          "conditional rendering with data filtering",
           "product details page pulling data",
           "dark mode option",
           "responsive design"
@@ -65,9 +66,8 @@
         "https://i.ibb.co/bRLbp6Jn/pet-light-mobile-2.jpg",
         "https://i.ibb.co/ZpLX6mJK/pet-dark-filter.jpg",
         "https://i.ibb.co/svK90SBg/pet-light2.jpg",
-        "https://i.ibb.co/GfLwrJCq/pet-prods-light.jpg",
         "https://i.ibb.co/vCbLcXJN/pet-white-filter.jpg",
-        "https://i.ibb.co/RGFwyXnF/pet-dark-prods.jpg",
+        "https://i.ibb.co/nNpkKhY3/pet-mobile-dk-feat.jpg",
         "https://i.ibb.co/Q7x55Mgq/pet-dark-footer.jpg",
         "https://i.ibb.co/bMCj42f4/pet-dark-2.jpg"
       ],
@@ -78,7 +78,7 @@
         "https://i.ibb.co/60WNqZTq/npm.png",
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
-      "featured": false,
+      "featured": true,
       "category": "sites",
       "pills": ["NextJs", "Tailwind"],
       "link": "https://pet-site-theta.vercel.app/",
@@ -87,7 +87,7 @@
     {
       "id": "3",
       "title": "Todos Tracker App",
-      "description": "App that includes CRUD operations",
+      "description": "App that includes CRUD operations, school project",
       "stack": "React, Vite, TailwindCSS, Node.js, LocalStorage, Vercel",
       "features": "school project - basic app that allows users to input their tasks that include a due date. The tasks can be edited or deleted. They can be sorted by today's tasks or this week's or by pending status.",
       "notes": "Got help from mentors to make it fullstack",
@@ -328,7 +328,7 @@
       ],
       "featured": false,
       "category": "projects",
-      "pills": ["HTML", "JavaScript", "API"],
+      "pills": ["HTML", "JavaScript"],
       "link": "https://dezineskv.github.io/yourBank/",
       "gitlink": "https://github.com/dezineskv/yourBank"
     },

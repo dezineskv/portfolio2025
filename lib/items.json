@@ -64,8 +64,8 @@
       "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
       "images": [
         "https://i.ibb.co/bRLbp6Jn/pet-light-mobile-2.jpg",
-        "https://i.ibb.co/ZpLX6mJK/pet-dark-filter.jpg",
         "https://i.ibb.co/svK90SBg/pet-light2.jpg",
+        "https://i.ibb.co/ZpLX6mJK/pet-dark-filter.jpg",
         "https://i.ibb.co/vCbLcXJN/pet-white-filter.jpg",
         "https://i.ibb.co/nNpkKhY3/pet-mobile-dk-feat.jpg",
         "https://i.ibb.co/Q7x55Mgq/pet-dark-footer.jpg",
@@ -310,7 +310,7 @@
       "description": "Frontend school project - page that lets the user interact with deposit, balance and withrawal amounts",
       "stack": "HTML, CSS, JavaScript",
       "features": "Frontend page that lets the user interact with deposit, balance and withrawal amounts",
-      "notes": "Background image was provided",
+      "notes": "Background image was provided. Used Bootstrap for styling.",
       "includes": {
         "items": [
           "frontend feature",
@@ -406,7 +406,7 @@
       },
       "image": "https://i.ibb.co/4RnC7Gwn/portfolio-1.png",
       "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
-      "images": ["https://i.ibb.co/BHnYYTMC/portfolio-2.png"],
+      "images": ["https://i.ibb.co/BHnYYTMC/portfolio-2.png", "https://i.ibb.co/XfyxH7K1/port-searchbar-dk.jpg", "https://i.ibb.co/ch96h5py/port-dt-dar-charts.jpg", "https://i.ibb.co/1t7PySKF/port-projects-light-dt.jpg", "https://i.ibb.co/tT4WRBNh/port-light-featuredprod.jpg", "https://i.ibb.co/fG0SmkyM/port-darkdt-prodfilter.jpg"],
       "icons": [
         "https://i.ibb.co/HDPXjcCM/nextjs2.png",
         "https://i.ibb.co/SXY0YdBr/tailwindcss.png",

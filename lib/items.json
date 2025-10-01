@@ -25,7 +25,8 @@
         "https://i.ibb.co/rKgZnWb2/coffeeshop-homepage.png",
         "https://i.ibb.co/NdVYQDqZ/coffee-banner.png",
         "https://i.ibb.co/3yPvbjMb/coffee-singleprod.png",
-        "https://i.ibb.co/qFhrRGB1/coffee-testimonials.png"
+        "https://ibb.co/Hf36CQMC",
+        "https://i.ibb.co/vvCqTCGM/coffee-editprods.jpg"
       ],
       "icons": [
         "https://i.ibb.co/HDPXjcCM/nextjs2.png",
@@ -36,7 +37,10 @@
         "https://i.ibb.co/9kbKBRCs/postman.png",
         "https://i.ibb.co/60WNqZTq/npm.png",
         "https://i.ibb.co/spy4N7Zq/github.png",
-        "https://i.ibb.co/jh0y3yW/vercel.png"
+        "https://i.ibb.co/jh0y3yW/vercel.png",
+        "https://i.ibb.co/HT6z8dY7/coffee-lightfilterprods.jpg",
+        "https://i.ibb.co/HfN6qY0M/coffee-testimonials-light-footerdt.jpg",
+        "https://i.ibb.co/jk5QKt38/coffee-home-dt-dark.jpg"
       ],
       "featured": true,
       "category": "apps",
@@ -406,7 +410,14 @@
       },
       "image": "https://i.ibb.co/4RnC7Gwn/portfolio-1.png",
       "logo": "https://i.ibb.co/HDPXjcCM/nextjs2.png",
-      "images": ["https://i.ibb.co/BHnYYTMC/portfolio-2.png", "https://i.ibb.co/XfyxH7K1/port-searchbar-dk.jpg", "https://i.ibb.co/ch96h5py/port-dt-dar-charts.jpg", "https://i.ibb.co/1t7PySKF/port-projects-light-dt.jpg", "https://i.ibb.co/tT4WRBNh/port-light-featuredprod.jpg", "https://i.ibb.co/fG0SmkyM/port-darkdt-prodfilter.jpg"],
+      "images": [
+        "https://i.ibb.co/BHnYYTMC/portfolio-2.png",
+        "https://i.ibb.co/XfyxH7K1/port-searchbar-dk.jpg",
+        "https://i.ibb.co/ch96h5py/port-dt-dar-charts.jpg",
+        "https://i.ibb.co/1t7PySKF/port-projects-light-dt.jpg",
+        "https://i.ibb.co/tT4WRBNh/port-light-featuredprod.jpg",
+        "https://i.ibb.co/fG0SmkyM/port-darkdt-prodfilter.jpg"
+      ],
       "icons": [
         "https://i.ibb.co/HDPXjcCM/nextjs2.png",
         "https://i.ibb.co/SXY0YdBr/tailwindcss.png",

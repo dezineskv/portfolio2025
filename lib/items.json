@@ -26,7 +26,10 @@
         "https://i.ibb.co/NdVYQDqZ/coffee-banner.png",
         "https://i.ibb.co/3yPvbjMb/coffee-singleprod.png",
         "https://ibb.co/Hf36CQMC",
-        "https://i.ibb.co/vvCqTCGM/coffee-editprods.jpg"
+        "https://i.ibb.co/vvCqTCGM/coffee-editprods.jpg",
+        "https://i.ibb.co/HT6z8dY7/coffee-lightfilterprods.jpg",
+        "https://i.ibb.co/HfN6qY0M/coffee-testimonials-light-footerdt.jpg",
+        "https://i.ibb.co/jk5QKt38/coffee-home-dt-dark.jpg"
       ],
       "icons": [
         "https://i.ibb.co/HDPXjcCM/nextjs2.png",
@@ -37,10 +40,7 @@
         "https://i.ibb.co/9kbKBRCs/postman.png",
         "https://i.ibb.co/60WNqZTq/npm.png",
         "https://i.ibb.co/spy4N7Zq/github.png",
-        "https://i.ibb.co/jh0y3yW/vercel.png",
-        "https://i.ibb.co/HT6z8dY7/coffee-lightfilterprods.jpg",
-        "https://i.ibb.co/HfN6qY0M/coffee-testimonials-light-footerdt.jpg",
-        "https://i.ibb.co/jk5QKt38/coffee-home-dt-dark.jpg"
+        "https://i.ibb.co/jh0y3yW/vercel.png",     
       ],
       "featured": true,
       "category": "apps",
@@ -115,7 +115,9 @@
         "https://i.ibb.co/SXY0YdBr/tailwindcss.png",
         "https://i.ibb.co/LX2q0WSB/nodejs.png",
         "https://i.ibb.co/60WNqZTq/npm.png",
-        "https://i.ibb.co/spy4N7Zq/github.png"
+        "https://i.ibb.co/spy4N7Zq/github.png",
+        "https://i.ibb.co/tMTMjJ0P/react.png",
+        "https://i.ibb.co/HpNhRHxH/vitejs.png"
       ],
       "featured": true,
       "category": "apps",
@@ -151,7 +153,8 @@
         "https://i.ibb.co/SXY0YdBr/tailwindcss.png",
         "https://i.ibb.co/LX2q0WSB/nodejs.png",
         "https://i.ibb.co/60WNqZTq/npm.png",
-        "https://i.ibb.co/spy4N7Zq/github.png"
+        "https://i.ibb.co/spy4N7Zq/github.png",
+        "https://i.ibb.co/0j1kP7ft/sass.png"
       ],
       "featured": false,
       "category": "sites",

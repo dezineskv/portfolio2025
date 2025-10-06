@@ -43,7 +43,7 @@ function AllProjects() {
       category,
       featured === filter
         ? "bg-[#422ad5] text-white"
-        : "bg-background text-gray-300"
+        : "bg-gray-500 text-white"
     );
   };
 

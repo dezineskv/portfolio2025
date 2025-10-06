@@ -111,8 +111,8 @@ async function page({ params }) {
                           <Image
                             src="https://i.ibb.co/spy4N7Zq/github.png"
                             alt="github"
-                            width={25}
-                            height={20}
+                            width={32}
+                            height={31}
                           />
                           &nbsp; <a href={project.gitlink} target="_blank">{project.gitlink}</a>
                         </p>

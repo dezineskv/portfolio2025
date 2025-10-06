@@ -262,7 +262,7 @@ export default function DataTable() {
   });
 
   return (
-    <div className="bg-background mx-auto md:w-full">
+    <div className="bg-white mx-auto rounded-lg md:w-full">
       <div className="my-container mx-auto px-10 pb-10">
         <h1 className="mb-4 text-4xl font-bold">Projects</h1>
         <p>Filter projects</p>

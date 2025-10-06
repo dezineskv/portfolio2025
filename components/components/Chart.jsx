@@ -66,7 +66,7 @@ export default function ChartPie() {
       <CardContent className="flex-1 pb-0 ">
         <ChartContainer
           config={chartConfig}
-          className="[&_.recharts-pie-label-text]:fill-foreground max-w-[240px] max-h-[440px] mx-auto aspect-square h-full w-full pb-0 mb-0"
+          className="[&_.recharts-pie-label-text-black]:fill-foreground max-w-[240px] max-h-[440px] mx-auto aspect-square h-full w-full pb-0 mb-0"
         >
           <PieChart>
             <ChartTooltip content={<ChartTooltipContent hideLabel />} />

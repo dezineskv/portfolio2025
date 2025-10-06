@@ -238,7 +238,7 @@ export default function Header() {
           </div>
           {/* theme toggle here */}
           {/* theme toggle here */}
-          <div className="rounded-lg border-1 border-gray-600 bg-white">
+          <div className="rounded-lg border-1 border-gray-600 bg-white text-black">
             <ThemeToggleButton />
           </div>
         </div>

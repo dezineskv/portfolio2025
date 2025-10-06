@@ -262,7 +262,7 @@ export default function DataTable() {
   });
 
   return (
-    <div className="bg-white mx-auto rounded-lg md:w-full">
+    <div className="bg-gray-100 text-black mx-auto rounded-lg md:w-full">
       <div className="my-container mx-auto px-10 pb-10">
         <h1 className="mb-4 text-4xl font-bold">Projects</h1>
         <p>Filter projects</p>
@@ -309,7 +309,7 @@ export default function DataTable() {
                 <TableRow key={headerGroup.id}>
                   {headerGroup.headers.map((header) => {
                     return (
-                      <TableHead key={header.id}>
+                      <TableHead key={header.id} className="text-black">
                         {header.isPlaceholder
                           ? null
                           : flexRender(
@@ -367,7 +367,7 @@ export default function DataTable() {
               Previous
             </Button>
             <Button
-              variant="outline"
+              variant="outline" className="text-white"
               size="sm"
               onClick={() => table.nextPage()}
               disabled={!table.getCanNextPage()}

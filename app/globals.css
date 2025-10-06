@@ -119,7 +119,9 @@
   max-width: 120px;
   max-height: 220px;
 }
-
+#dropdown-menu-trigger {
+  background-color: white
+}
 @layer base {
   * {
     @apply border-border outline-ring/50;

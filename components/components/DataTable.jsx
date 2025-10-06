@@ -275,7 +275,7 @@ export default function DataTable() {
             }
             className="max-w-sm"
           />
-          <DropdownMenu>
+          <DropdownMenu className="bg-white">
             <DropdownMenuTrigger asChild>
               <Button variant="outline" className="ml-auto">
                 Columns View <ChevronDown />

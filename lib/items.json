@@ -234,7 +234,7 @@
         "https://i.ibb.co/spy4N7Zq/github.png"
       ],
       "featured": false,
-      "category": "projects",
+      "category": "sites",
       "pills": ["NextJs", "Tailwind", "API"],
       "link": "https://next-ui-frontend-lra6.vercel.app/",
       "gitlink": "https://github.com/dezineskv/next-UI-frontend"

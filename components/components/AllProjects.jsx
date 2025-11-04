@@ -71,7 +71,7 @@ function AllProjects() {
             className={`${isActive("sites")} text-sm py-2 px-4 w-[90px] rounded-lg hover:bg-black`}
             onClick={() => setFilter("sites")}
           >
-            Sites
+            Frontend
           </button>
           <button
             className={`${isActive("yes")} text-sm py-2 px-4 w-[120px] rounded-lg hover:bg-black`}

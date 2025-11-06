@@ -21,7 +21,7 @@ const Hero = () => {
           Frontend Developer
         </div>
         <p className="mb-8 text-gray-200 text-xl font-bold">
-          Building web apps, sites and features
+          Building web apps, sites and features. This site is built with Next.js and Tailwind CSS. Some features include a dark mode that fades across. A ticker, swiper, carousels and cards.
         </p>
         <Link href="/projects">
           <button className="rounded-lg bg-background px-6 py-3 font-bold text-gray-200 hover:bg-blue-700">

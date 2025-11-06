@@ -9,7 +9,7 @@ function Features() {
       </h1>
 <p className="mb-8 text-center text-background px-4 max-w-3xl mx-auto">
         A selection of frontend components I have built recently using React,
-        Next.js, TailwindCSS, plus MongoDB for data storage. These are for the Coffee Shop app. The app also includes Framer Motion animations, dark mode for each page, and responsive design for mobile and desktop. There are some admin pages too for managing the product inventory.
+        Next.js, TailwindCSS, Typescript, plus MongoDB for data storage. These are for the Coffee Shop app. The app also includes Framer Motion animations, dark mode for each page, and responsive design for mobile and desktop. There are some admin pages too for managing the product inventory.
       </p>
       {/* all cards here */}
       <div className="flex sm:flex-col md:flex-row justify-center flex-wrap md:w-7xl sm:w-sm mx-auto sm:pl-14 gap-4 space-y-2">

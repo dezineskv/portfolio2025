@@ -1,26 +1,8 @@
 "use client";
 import React from "react";
-import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardAction,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import Image from "next/image";
-import Link from "next/link";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-import Thumbnails from "./Thumbnails";
 import { items } from "@/lib/items.json";
 import FeaturedCarousel from "./FeaturedCarousel";
+import Features from "./Features";
 
 function Projects() {
   return (

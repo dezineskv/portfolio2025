@@ -9,6 +9,7 @@ import TwoCol from "@/components/components/TwoCol";
 import AllProjects from "@/components/components/AllProjects";
 import FeaturedCarousel from "@/components/components/FeaturedCarousel";
 import Projects from "@/components/components/Projects";
+import Features from "@/components/components/Features";
 
 function page() {
   return (
@@ -21,6 +22,7 @@ function page() {
           <Ticker />
           <Featured />
           <AllProjects />
+          <Features/>
           <TwoCol />
         </div>
       </Suspense>

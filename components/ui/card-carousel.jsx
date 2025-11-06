@@ -58,19 +58,19 @@ export const CardCarousel = ({
         <div className="relative mx-auto flex w-full flex-col rounded-[24px] border border-black/5 bg-neutral-800/5 p-2 shadow-sm md:items-start md:gap-8 md:rounded-b-[20px] md:rounded-t-[40px] md:p-2">
           <Badge
             variant="outline"
-            className="absolute left-4 top-6 rounded-[14px] border border-black/10 text-base md:left-6"
+            className="absolute left-4 top-6 rounded-[14px] border border-black/10 text-base md:left-6 text-gray-800"
           >
-            <SparklesIcon className="fill-[#EEBDE0] stroke-1 text-neutral-800" />
+            <SparklesIcon className="fill-[#EEBDE0] stroke-1 text-gray-800" />
             Sneak Peek
           </Badge>
           <div className="flex flex-col justify-center pb-2 pl-4 pt-14 md:items-center">
             <div className="flex gap-2">
               <div>
-                <h3 className="text-4xl opacity-85 font-bold tracking-tight">
+                <h3 className="text-4xl opacity-85 font-bold text-gray-700 tracking-tight">
                   Skills
                 </h3>
                 <p>
-                  <Link href="/skills">View more</Link>
+                  <Link href="/skills" className="text-gray-700">View more</Link>
                 </p>
               </div>
             </div>

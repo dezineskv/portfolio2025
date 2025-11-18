@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Features() {
   return (
-    <div className="py-8 mb-8  dark:bg-gray-500">
+    <div className="py-12 dark:bg-gray-500">
       <h1 className="mb-1 text-5xl font-bold text-center text-background pt-8 pb-8">
         Featured: Frontend Features
       </h1>

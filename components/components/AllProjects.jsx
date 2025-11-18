@@ -1,15 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardAction,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
 import data from "@/lib/items.json";
@@ -56,31 +47,31 @@ function AllProjects() {
       <div className="flex sm:flex-col flex-row  sm:w-[80%] sm:justify-center flex-wrap  md:max-w-2xl mx-auto pb-4">
         <div className="inline-flex sm:justify-center md:flex-row flex-wrap gap-2 items-center p-8 md:pr-6 rounded-lg md:w-2xl">
           <button
-            className={`${isActive("all")} text-sm py-2 px-4 w-[90px] rounded-lg hover:bg-black`}
+            className={`${isActive("all")} text-sm py-2 px-4 w-[90px] rounded-lg dark:border-2 border-white  hover:bg-black`}
             onClick={() => setFilter("all")}
           >
             All
           </button>
           <button
-            className={`${isActive("apps")} text-sm py-2 px-4 w-[90px] rounded-lg hover:bg-black`}
+            className={`${isActive("apps")} text-sm py-2 px-4 w-[90px] rounded-lg dark:border-2 border-white  hover:bg-black`}
             onClick={() => setFilter("apps")}
           >
             Apps
           </button>
           <button
-            className={`${isActive("sites")} text-sm py-2 px-4 w-[90px] rounded-lg hover:bg-black`}
+            className={`${isActive("sites")} text-sm py-2 px-4 w-[90px] rounded-lg dark:border-2 border-white  hover:bg-black`}
             onClick={() => setFilter("sites")}
           >
             Frontend
           </button>
           <button
-            className={`${isActive("yes")} text-sm py-2 px-4 w-[120px] rounded-lg hover:bg-black`}
+            className={`${isActive("yes")} text-sm py-2 px-4 w-[120px] rounded-lg dark:border-2 border-white  hover:bg-black`}
             onClick={() => setFilter("yes")}
           >
             Featured
           </button>
           <button
-            className={`${isActive("projects")} text-sm py-2 px-4 w-[164px] rounded-lg hover:bg-black`}
+            className={`${isActive("projects")} text-sm py-2 px-4 w-[164px] rounded-lg dark:border-2 border-white  hover:bg-black`}
             onClick={() => setFilter("projects")}
           >
             Projects/Features
@@ -135,7 +126,7 @@ function AllProjects() {
       </div>
       <div className="mx-auto text-center pt-3 pb-10">
         <Link href="/filter">
-          <Button className="text-white dark:text-black bg-foreground">
+          <Button className="text-white rounded-lg border-1-black bg-background hover:bg-gray-300">
             Projects Overview
           </Button>
         </Link>

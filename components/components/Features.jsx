@@ -9,15 +9,11 @@ function Features() {
       </h1>
       <p className="mb-8 text-center text-background px-4 max-w-3xl mx-auto">
         A selection of frontend components I have built recently using React,
-        Next.js, TailwindCSS, Typescript, plus MongoDB for data storage. These
-        are for the Coffee Shop app. The app also includes Framer Motion
-        animations, dark mode for each page, and responsive design for mobile
-        and desktop. There are some admin pages too for managing the product
-        inventory.
+        Next.js, TailwindCSS, Typescript, plus MongoDB for data storage. A lot of these examples are from the Coffee Shop app. The app also includes Framer Motion animations, dark mode for each page, and responsive design for mobile and desktop. There are some admin pages too for managing the product inventory.
       </p>
       {/* all cards here */}
-      <div className="flex sm:flex-col md:flex-row justify-center flex-wrap md:w-7xl sm:w-sm mx-auto sm:pl-14 gap-4 space-y-2">
-        {/* <div className="w-[360px] h-[420px] ">
+      <div className="flex sm:flex-col md:flex-row justify-center flex-wrap sm:w-[75%] md:w-3xl lg:w-5xl mx-auto gap-4 space-y-2">
+        {/* <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/mVmZjwd9/coffee-updateproductdetails.jpg"
@@ -36,7 +32,7 @@ function Features() {
           </div>
         </div> */}
 
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/39CdMrQ1/coffee-admin-editdeleteproducts.jpg"
@@ -57,7 +53,7 @@ function Features() {
             </div>
           </div>
         </div>
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/TDjBXcSb/coffee-logindtlight.jpg"
@@ -77,7 +73,7 @@ function Features() {
             </div>
           </div>
         </div>
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/gZ5NFkMQ/coffee-dtadmindashboard.jpg"
@@ -97,7 +93,7 @@ function Features() {
             </div>
           </div>
         </div>
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/DgwfJwX5/coffee-adminform-addprducts.jpg"
@@ -117,7 +113,7 @@ function Features() {
             </div>
           </div>
         </div>
-        {/* <div className="w-[360px] h-[420px] ">
+        {/* <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/k63CPhMp/coffee-testimonials-carouseldtdark.jpg"
@@ -133,7 +129,7 @@ function Features() {
             </div>
           </div>
         </div> */}
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/JwQMDqHV/coffee-testimonials-carouseldtlt.jpg"
@@ -154,7 +150,7 @@ function Features() {
             </div>
           </div>
         </div>
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/svYKYyPD/coffee-mobile-bannerstack.jpg"
@@ -172,7 +168,7 @@ function Features() {
             </div>
           </div>
         </div>
-        {/* <div className="w-[360px] h-[420px] ">
+        {/* <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/svYKYyPD/coffee-mobile-bannerstack.jpg"
@@ -188,7 +184,7 @@ function Features() {
             </div>
           </div>
         </div> */}
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/PZ3LhXGY/coffee-mobile-servicecards.jpg"
@@ -207,7 +203,7 @@ function Features() {
             </div>
           </div>
         </div>
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/tMz1j14x/coffee-kimcard.jpg"
@@ -227,7 +223,7 @@ function Features() {
             </div>
           </div>
         </div>
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/TxnFDzNL/coffee-proddetail-accordion.jpg"
@@ -248,7 +244,7 @@ function Features() {
             </div>
           </div>
         </div>
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/rR2FrZ0B/ecomm-mobile.jpg"
@@ -269,7 +265,7 @@ function Features() {
             </div>
           </div>
         </div>
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/4wQjsXTV/emailsubscribe-dt.jpg"
@@ -289,7 +285,7 @@ function Features() {
             </div>
           </div>
         </div>
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/pvsLKqLZ/coffee-dt-products-condition.jpg"
@@ -310,7 +306,7 @@ function Features() {
             </div>
           </div>
         </div>
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/rGMcMtWc/coffee-filterprducts.jpg"
@@ -331,7 +327,7 @@ function Features() {
             </div>
           </div>
         </div>
-        {/* <div className="w-[360px] h-[420px] ">
+        {/* <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/hRm3gRvj/coffee-dtlt-hero.jpg"
@@ -347,7 +343,7 @@ function Features() {
             </div>
           </div>
         </div> */}
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/7NtBLZ8v/coffeeshop-searchdtresults.jpg"
@@ -368,7 +364,7 @@ function Features() {
             </div>
           </div>
         </div>
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/V0MkXjfV/coffee-dt-ligh-cartdropdown.jpg"
@@ -388,7 +384,7 @@ function Features() {
             </div>
           </div>
         </div>
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/35HntfFp/coffee-theme-dk.jpg"
@@ -409,7 +405,7 @@ function Features() {
           </div>
         </div>
 
-        <div className="w-[360px] h-[420px] ">
+        <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
               src="https://i.ibb.co/tM0kRDBP/swiper-feature.jpg"

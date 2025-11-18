@@ -7,9 +7,13 @@ function Features() {
       <h1 className="mb-1 text-5xl font-bold text-center text-background pt-8 pb-8">
         Featured: Frontend Features
       </h1>
-<p className="mb-8 text-center text-background px-4 max-w-3xl mx-auto">
+      <p className="mb-8 text-center text-background px-4 max-w-3xl mx-auto">
         A selection of frontend components I have built recently using React,
-        Next.js, TailwindCSS, Typescript, plus MongoDB for data storage. These are for the Coffee Shop app. The app also includes Framer Motion animations, dark mode for each page, and responsive design for mobile and desktop. There are some admin pages too for managing the product inventory.
+        Next.js, TailwindCSS, Typescript, plus MongoDB for data storage. These
+        are for the Coffee Shop app. The app also includes Framer Motion
+        animations, dark mode for each page, and responsive design for mobile
+        and desktop. There are some admin pages too for managing the product
+        inventory.
       </p>
       {/* all cards here */}
       <div className="flex sm:flex-col md:flex-row justify-center flex-wrap md:w-7xl sm:w-sm mx-auto sm:pl-14 gap-4 space-y-2">
@@ -134,10 +138,10 @@ function Features() {
             <Image
               src="https://i.ibb.co/JwQMDqHV/coffee-testimonials-carouseldtlt.jpg"
               alt="images"
-              width={308}
+              width={250}
               height={250}
               className="
-                    w-[300px] min-h-[250px] max-h-[250px] h-[250px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
+                    w-[250px] min-h-[250px] max-h-[250px] h-[250px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
             />
             <div class="px-6 pt-4 pb-4">
               <div class="font-bold text-xl mb-2 text-background">
@@ -153,12 +157,12 @@ function Features() {
         <div className="w-[360px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
-              src="https://i.ibb.co/9m8w84gd/coffee-dtbanner2col-dk.jpg"
+              src="https://i.ibb.co/svYKYyPD/coffee-mobile-bannerstack.jpg"
               alt="images"
-              width={308}
+              width={208}
               height={250}
               className="
-                    w-[300px] min-h-[250px] max-h-[250px] h-[250px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
+                    w-[200px] min-h-[250px] max-h-[250px] h-[250px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
             />
             <div class="px-6 pt-4 pb-4">
               <div class="font-bold text-xl mb-2 text-background">Banner</div>
@@ -209,9 +213,9 @@ function Features() {
               src="https://i.ibb.co/tMz1j14x/coffee-kimcard.jpg"
               alt="images"
               width={208}
-              height={250}
+              height={230}
               className="
-                    w-[200px] min-h-[250px] max-h-[250px] h-[250px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
+                    w-[200px] min-h-[230px] max-h-[230px] h-[230px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150 mb-[20px]"
             />
             <div class="px-6 pt-4 pb-4">
               <div class="font-bold text-xl mb-2 text-background">
@@ -247,12 +251,33 @@ function Features() {
         <div className="w-[360px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
+              src="https://i.ibb.co/rR2FrZ0B/ecomm-mobile.jpg"
+              alt="images"
+              width={258}
+              height={250}
+              className="
+                    w-[250px] min-h-[250px] max-h-[250px] h-[250px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
+            />
+            <div class="px-6 pt-4 pb-4">
+              <div class="font-bold text-xl mb-2 text-background">
+                Mobile product detail
+              </div>
+              <p class="text-gray-700 text-base line-clamp-2">
+                Content details per product ID. Includes an accordion for
+                shipping details and images of similar products.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="w-[360px] h-[420px] ">
+          <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
+            <Image
               src="https://i.ibb.co/4wQjsXTV/emailsubscribe-dt.jpg"
               alt="images"
               width={322}
-              height={250}
+              height={150}
               className="
-                    w-[322px] min-h-[250px] max-h-[250px] h-[250px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
+                    w-[322px] min-h-[150px] max-h-[150px] h-[150px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150 py-6 mb-[100px]"
             />
             <div class="px-6 pt-4 pb-4">
               <div class="font-bold text-xl mb-2 text-background">
@@ -270,9 +295,9 @@ function Features() {
               src="https://i.ibb.co/pvsLKqLZ/coffee-dt-products-condition.jpg"
               alt="images"
               width={308}
-              height={250}
+              height={220}
               className="
-                    w-[300px] min-h-[250px] max-h-[250px] h-[250px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
+                    w-[300px] min-h-[220px] max-h-[220px] h-[220px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150 mb-[30px]"
             />
             <div class="px-6 pt-4 pb-4">
               <div class="font-bold text-xl mb-2 text-background">
@@ -328,9 +353,9 @@ function Features() {
               src="https://i.ibb.co/7NtBLZ8v/coffeeshop-searchdtresults.jpg"
               alt="images"
               width={328}
-              height={250}
+              height={130}
               className="
-                    w-[320px] min-h-[250px] max-h-[250px] h-[250px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
+                    w-[322px] min-h-[130px] max-h-[130px] h-[130px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150 py-6 mb-[120px]"
             />
             <div class="px-6 pt-4 pb-4">
               <div class="font-bold text-xl mb-2 text-background">
@@ -366,12 +391,12 @@ function Features() {
         <div className="w-[360px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image
-              src="https://i.ibb.co/gZ16NN76/coffee-dtdropdown.jpg"
+              src="https://i.ibb.co/35HntfFp/coffee-theme-dk.jpg"
               alt="images"
-              width={258}
+              width={200}
               height={250}
               className="
-                    w-[250px] min-h-[250px] max-h-[250px] h-[250px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
+                    w-[200px] min-h-[250px] max-h-[250px] h-[250px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
             />
             <div class="px-6 pt-4 pb-4">
               <div class="font-bold text-xl mb-2 text-background">
@@ -379,6 +404,25 @@ function Features() {
               </div>
               <p class="text-gray-700 text-base line-clamp-2">
                 A dropdown allows selection of dark mode, light or system theme.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-[360px] h-[420px] ">
+          <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
+            <Image
+              src="https://i.ibb.co/tM0kRDBP/swiper-feature.jpg"
+              alt="images"
+              width={250}
+              height={200}
+              className="
+                    w-[250px] min-h-[200px] max-h-[200px] h-[200px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150 mb-[50px]"
+            />
+            <div class="px-6 pt-4 pb-4">
+              <div class="font-bold text-xl mb-2 text-background">Swiper</div>
+              <p class="text-gray-700 text-base line-clamp-2">
+                Mobile swipe or desktop click to navigate through featured content.
               </p>
             </div>
           </div>

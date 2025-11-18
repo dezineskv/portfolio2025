@@ -79,8 +79,8 @@ function Resume() {
                                 DECEMBER 2024 - DECEMBER 2025 | Remote
                               </p>
                               <p>
-                                ● Developed responsive, customized email
-                                templates and landing pages
+                                ● Developed responsive, customized emails and
+                                landing pages
                               </p>
                             </p>
                           </div>
@@ -97,7 +97,8 @@ function Resume() {
                               <p>
                                 ● Marketing Automation API for Marketo using
                                 REST ● Developed responsive, customized email
-                                templates and landing pages ● SQL list pulls via
+                                templates including media queries and developed
+                                customized landing pages ● SQL list pulls via
                                 'plx' for Google Cloud clients ● WordPress admin
                                 for company site and won Superhero of the
                                 Quarter Q12023

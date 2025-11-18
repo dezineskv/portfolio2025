@@ -17,10 +17,10 @@ const Hero = () => {
       {/* Overlay */}
       <div className="z-20 p-8 text-gray-200">
         <h1 className="mb-2 text-4xl font-bold">I'm Kim</h1>
-        <div className="text-gray-200 text-xl font-bold">
+        <div className="text-gray-200 text-xl">
           Frontend Developer
         </div>
-        <p className="mb-8 text-gray-200 text-xl font-bold">
+        <p className="mb-8 text-gray-200 text-xl font-bold max-w-3xl mx-auto">
           Building web apps, sites and features. This site is built with Next.js and Tailwind CSS. Some features include a dark mode that fades across. A ticker, swiper, carousels and cards.
         </p>
         <Link href="/projects">

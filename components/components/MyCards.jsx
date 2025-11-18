@@ -41,7 +41,7 @@ const MyCards = () => {
 
   return (
     <div className="sm:w-full sm:max-w-[400px] sm:mx-auto md:w-[60%] md:max-w-[560px] md:pb-4 sm:px-6 pt-10 md:pl-8 md:pr-18">
-      <div className="mx-auto mt-10 mb-20 rounded-b-2xl rounded-t-4xl bg-primary-foreground md:w-[580px] sm:mx-2">
+      <div className="mx-auto mt-10 mb-20  md:w-[580px] sm:mx-2">
         <CardCarousel
           images={images}
           autoplayDelay={2000}

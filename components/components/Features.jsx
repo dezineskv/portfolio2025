@@ -422,7 +422,8 @@ function Features() {
             <div class="px-6 pt-4 pb-4">
               <div class="font-bold text-xl mb-2 text-background">Swiper</div>
               <p class="text-gray-700 text-base line-clamp-2">
-                Mobile swipe or desktop click to navigate through featured content.
+                Mobile or desktop swipe to navigate through the featured
+                content.
               </p>
             </div>
           </div>

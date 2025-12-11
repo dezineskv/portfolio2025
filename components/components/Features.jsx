@@ -9,7 +9,11 @@ function Features() {
       </h1>
       <p className="mb-8 text-center text-background px-4 max-w-3xl mx-auto">
         A selection of frontend components I have built recently using React,
-        Next.js, TailwindCSS, Typescript, plus MongoDB for data storage. A lot of these examples are from the Coffee Shop app. The app also includes Framer Motion animations, dark mode for each page, and responsive design for mobile and desktop. There are some admin pages too for managing the product inventory.
+        Next.js, TailwindCSS, Typescript, plus MongoDB for data storage. A lot
+        of these examples are from the Coffee Shop app. The app also includes
+        Framer Motion animations, dark mode for each page, and responsive design
+        for mobile and desktop. There are some admin pages too for managing the
+        product inventory.
       </p>
       {/* all cards here */}
       <div className="flex sm:flex-col md:flex-row justify-center flex-wrap sm:w-[75%] md:w-3xl lg:w-5xl mx-auto gap-4 space-y-2">
@@ -129,6 +133,26 @@ function Features() {
             </div>
           </div>
         </div> */}
+        <div className="w-[320px] h-[420px] ">
+          <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
+            <Image
+              src="https://portfolio2025-sand-ten.vercel.app/_next/image?url=https%3A%2F%2Fi.ibb.co%2FRTF1YTfc%2FaddTask.jpg&w=1080&q=75"
+              alt="images"
+              width={308}
+              height={250}
+              className="
+                    w-[300px] min-h-[250px] max-h-[250px] h-[250px] overflow-hidden bg-cover mx-auto mt-1 hover:scale-150"
+            />
+            <div class="px-6 pt-4 pb-4">
+              <div class="font-bold text-xl mb-2 text-background">
+                Admin panel & Modal
+              </div>
+              <p class="text-gray-700 text-base line-clamp-2">
+                Modal for editing and saving tasks.
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="w-[320px] h-[420px] ">
           <div class="max-w-sm rounded-lg shadow-lg border-1 border-background bg-gray-100 h-[420px]">
             <Image

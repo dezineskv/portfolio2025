@@ -12,12 +12,7 @@ import {
 } from "@/components/ui/carousel";
 import {
   Card,
-  CardAction,
   CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
 
 function Featured() {
@@ -38,14 +33,15 @@ function Featured() {
                 <Carousel className="w-[280px] mx-auto max-w-sm my-auto py-auto px-6">
                   <CarouselContent>
                     {item.images.map((_, index) => (
-                      <CarouselItem key={index}>
-                        <Card className="h-[180px] w-[240px]">
-                          <CardContent className="flex aspect-auto items-center justify-center my-0 p-0">
+                      <CarouselItem key={index} className="border-1-black">
+                        <Card className="h-[180px] w-[240px] border-1-black">
+                          <CardContent className="flex aspect-auto items-center justify-center my-0 p-0 border-2-black">
                             <Image
                               src={_}
                               alt="image"
                               width={240}
                               height={200}
+                              className="border-2-black"
                             />
                           </CardContent>
                         </Card>
@@ -66,7 +62,7 @@ function Featured() {
                           alt="icons"
                           width={34}
                           height={34}
-                          className="mr-2 hover:scale-150"
+                          className="mr-2 hover:scale-150 "
                         />
                       ))}
                     </p>
@@ -83,9 +79,9 @@ function Featured() {
                   </div>
                   <div className="flex items-start">
                     <div className="text-sm text-gray-600">
-                        <Link href={`/projects/${item.id}`}>
-                          <Button>View Project</Button>                        
-                          </Link>                   
+                      <Link href={`/projects/${item.id}`}>
+                        <Button>View Project</Button>
+                      </Link>
                     </div>
                   </div>
                 </div>

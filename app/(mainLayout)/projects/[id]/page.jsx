@@ -103,7 +103,10 @@ async function page({ params }) {
                       {project?.link && (
                         <p className="flex text-xl text-[#99a1af]">
                           <Link />
-                          &nbsp; <a href={project.link} target="_blank">{project.link}</a>
+                          &nbsp;{" "}
+                          <a href={project.link} target="_blank">
+                            {project.link}
+                          </a>
                         </p>
                       )}
                       {project?.gitlink && (
@@ -114,7 +117,10 @@ async function page({ params }) {
                             width={32}
                             height={31}
                           />
-                          &nbsp; <a href={project.gitlink} target="_blank">{project.gitlink}</a>
+                          &nbsp;{" "}
+                          <a href={project.gitlink} target="_blank">
+                            {project.gitlink}
+                          </a>
                         </p>
                       )}
                     </AccordionContent>
@@ -140,6 +146,29 @@ async function page({ params }) {
               />
             </CardFooter>
           </Card>
+        </div>
+        <div className="mr-1 flex justify-center gap-2 p-4 text-center">
+          Featured Projects:
+          <a
+            href="https://portfolio2025-sand-ten.vercel.app/projects/1"
+            className="text-xl underline"
+          >
+            1
+          </a>
+          |
+          <a
+            href="https://portfolio2025-sand-ten.vercel.app/projects/2"
+            className="text-xl underline"
+          >
+            2
+          </a>
+          |
+          <a
+            href={"https://portfolio2025-sand-ten.vercel.app/projects/3"}
+            className="text-xl underline"
+          >
+            3
+          </a>
         </div>
       </div>
       <Footer />
